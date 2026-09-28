@@ -6,6 +6,7 @@ from pydantic import BaseModel, model_validator
 
 class Label(StrEnum):
     PER = "PER"              # ФИО физлица
+    NICK = "NICK"            # никнейм/логин; в сводной метрике объединяется с PER
     INN = "INN"              # ИНН (10 или 12 цифр)
     SNILS = "SNILS"
     PASSPORT = "PASSPORT"    # серия и номер паспорта РФ
