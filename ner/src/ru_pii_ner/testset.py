@@ -49,7 +49,8 @@ def load_drafts(seed: int = 0) -> list[Example]:
     rng = random.Random(seed)
     examples = []
     for path in sorted(DRAFTS.glob("*.txt")):
-        chunks = [c.strip() for c in path.read_text(encoding="utf-8").split("\n---\n")]
+        raw = path.read_text(encoding="utf-8").replace("\r\n", "\n")  # git на Windows отдаёт CRLF
+        chunks = [c.strip() for c in raw.split("\n---\n")]
         for i, chunk in enumerate(c for c in chunks if c):
             examples.append(parse(chunk, f"{path.stem}-{i:03d}", rng))
     return examples
