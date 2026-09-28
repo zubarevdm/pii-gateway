@@ -1,0 +1,7751 @@
+[
+ {
+  "data": {
+   "id": "01_support-000",
+   "text": "Здравствуйте, у меня третий день не работает интернет. Договор на Кравцову Елену Игоревну, адрес Воронеж, ул. Хользунова 40а кв 118. Перезвоните на 89202345671, пожалуйста"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-000-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 66,
+       "end": 89,
+       "text": "Кравцову Елену Игоревну",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "01_support-000-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 97,
+       "end": 131,
+       "text": "Воронеж, ул. Хользунова 40а кв 118",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "01_support-000-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 148,
+       "end": 159,
+       "text": "89202345671",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-001",
+   "text": "добрый вечер! заказывала пылесос, пришла коробка без насадок. заказ 55012873. что делать?? Ольга"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-001-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 91,
+       "end": 96,
+       "text": "Ольга",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-002",
+   "text": "Уважаемая поддержка, прошу удалить мой аккаунт и все данные. Почта для регистрации s.melnikov84@yandex.ru. Логин на сайте smelnik."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-002-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 83,
+       "end": 105,
+       "text": "s.melnikov84@yandex.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "01_support-002-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 122,
+       "end": 129,
+       "text": "smelnik",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-003",
+   "text": "Мне пришло смс что с карты 2202 **** **** 4417 списано 12 990 р, я ничего не покупала!!! Срочно заблокируйте"
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-004",
+   "text": "Курьер Руслан был очень вежлив, спасибо ему большое. Оценка 5 из 5."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-004-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 7,
+       "end": 13,
+       "text": "Руслан",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-005",
+   "text": "Здравствуйте. Не могу привязать карту, пишет «ошибка 3DS». Пробовала две карты. Телефон в профиле +7 912 004-18-33"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-005-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 98,
+       "end": 114,
+       "text": "+7 912 004-18-33",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-006",
+   "text": "Посылка должна была прийти в пункт выдачи на Лесной проспект, 64, но в приложении пишет «доставлено». Я там был, её нет. Гусейнов Т."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-006-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 64,
+       "text": "Лесной проспект, 64",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "01_support-006-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 121,
+       "end": 132,
+       "text": "Гусейнов Т.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-007",
+   "text": "Прошу сделать перерасчёт за август. Лицевой счёт 7730041, плательщик Соболев Андрей Викторович."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-007-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 49,
+       "end": 56,
+       "text": "7730041",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     },
+     {
+      "id": "01_support-007-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 69,
+       "end": 94,
+       "text": "Соболев Андрей Викторович",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-008",
+   "text": "не приходит код на почту lenochka.b@mail.ru уже час жду"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-008-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 25,
+       "end": 43,
+       "text": "lenochka.b@mail.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-009",
+   "text": "Ваш оператор Кристина бросила трубку, когда я попросил позвать старшего. Звонил с номера 8 (963) 771-02-19 около 14:00."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-009-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 13,
+       "end": 21,
+       "text": "Кристина",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "01_support-009-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 89,
+       "end": 106,
+       "text": "8 (963) 771-02-19",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-010",
+   "text": "Добрый день! Хочу сменить тариф на «Семейный». Абонент Юсупова Динара Рашидовна, номер +79871203344."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-010-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 55,
+       "end": 79,
+       "text": "Юсупова Динара Рашидовна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "01_support-010-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 87,
+       "end": 99,
+       "text": "+79871203344",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-011",
+   "text": "Товар пришёл с браком (трещина на экране). Фото прикладываю. Прошу вернуть деньги на ту же карту, последние цифры *9021."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-011-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 114,
+       "end": 119,
+       "text": "*9021",
+       "labels": [
+        "CARD"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-012",
+   "text": "Здравствуйте, подскажите режим работы магазина на Тверской? На сайте указано до 22, а вчера в 21 уже закрыто."
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-013",
+   "text": "Я уже пятый раз пишу!!! Где мой возврат? Заявка 44-1180. ФИО Прохоренко В.С.. Сумма 3 400 руб."
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-014",
+   "text": "Прошу выслать закрывающие документы на почту бухгалтерии buh@stroymir-nn.ru. ИНН нашей организации 5260271530."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-015",
+   "text": "Здрасьте. Я Никита, мне 17 лет, можно ли мне оформить карту без родителей?"
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-016",
+   "text": "Не работает автоплатёж. Привязана карта 2204 6048 7647 5939, держатель MARINA KOVALEVA."
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-017",
+   "text": "Просьба связаться со мной только по почте (ivan.tkachenko@gmail.com), по телефону не звоните, я на работе."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-017-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 43,
+       "end": 67,
+       "text": "ivan.tkachenko@gmail.com",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-018",
+   "text": "Доставка в Химки, ул. Молодёжная, д. 78, под. 3, кв. 211. Домофон не работает, позвоните +7 (916) 555-40-12 когда подъедете"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-018-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 11,
+       "end": 56,
+       "text": "Химки, ул. Молодёжная, д. 78, под. 3, кв. 211",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "01_support-018-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 89,
+       "end": 107,
+       "text": "+7 (916) 555-40-12",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-019",
+   "text": "В чате поддержки мне ответил бот, а не человек. Хочу поговорить с живым оператором."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-020",
+   "text": "Здравствуйте, Алексей Петрович! Ваш запрос №88213 закрыт. Если вопрос не решён, ответьте на это письмо."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-020-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 14,
+       "end": 30,
+       "text": "Алексей Петрович",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-021",
+   "text": "Я оплатил подписку, но премиум не активировался. Аккаунт @dark_knight_1997, почта vadim.orlov97@bk.ru"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-021-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 57,
+       "end": 74,
+       "text": "@dark_knight_1997",
+       "labels": [
+        "NICK"
+       ]
+      }
+     },
+     {
+      "id": "01_support-021-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 82,
+       "end": 101,
+       "text": "vadim.orlov97@bk.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-022",
+   "text": "Прошу разобраться с оператором Ахмедов, он нагрубил мне по телефону 12 сентября."
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-023",
+   "text": "Подскажите, почему в чеке указан ИНН продавца 7736207543, а магазин другой? Это нормально?"
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-024",
+   "text": "Счётчик воды поменяли 03.09, показания на момент замены 00412. Квартира по адресу ул. Гагарина 12-45, собственник Зайцева Л.М."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-024-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 82,
+       "end": 100,
+       "text": "ул. Гагарина 12-45",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "01_support-024-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 114,
+       "end": 126,
+       "text": "Зайцева Л.М.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-025",
+   "text": "Добрый день. Мой номер 8-914-***-**-07 заблокирован после смены сим-карты. Паспорт при себе, могу подойти в салон."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-025-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 23,
+       "end": 38,
+       "text": "8-914-***-**-07",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-026",
+   "text": "Здравствуйте! Подскажите, можно ли вернуть билет, купленный на имя Тимура Бекова? Он заболел."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-026-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 67,
+       "end": 80,
+       "text": "Тимура Бекова",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-027",
+   "text": "Спасибо за быструю помощь! Всё заработало."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-028",
+   "text": "жалоба на водителя такси, машина белая солярис, водитель Жамшид, ехал на красный, чуть не сбил пешехода"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-028-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 57,
+       "end": 63,
+       "text": "Жамшид",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-029",
+   "text": "У меня два аккаунта: olga.sm и olga_smirnova_88. Хочу объединить их в один, возможно ли?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-029-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 21,
+       "end": 28,
+       "text": "olga.sm",
+       "labels": [
+        "NICK"
+       ]
+      }
+     },
+     {
+      "id": "01_support-029-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 31,
+       "end": 47,
+       "text": "olga_smirnova_88",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-030",
+   "text": "Прошу выдать справку о доходах за 2025 год. Белоусов Игорь Андреевич, дата рождения 14.02.1979."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-030-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 44,
+       "end": 68,
+       "text": "Белоусов Игорь Андреевич",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "01_support-030-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 84,
+       "end": 94,
+       "text": "14.02.1979",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-031",
+   "text": "Вчера звонили с номера 8-800-555-35-35, сказали что из банка. Это правда вы?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-032",
+   "text": "Номер телефона в заказе неправильный, правильный +7 900 111 2 333. Получатель тот же — Литвинова Анна."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-032-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 49,
+       "end": 65,
+       "text": "+7 900 111 2 333",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "01_support-032-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 87,
+       "end": 101,
+       "text": "Литвинова Анна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-033",
+   "text": "Я не получил чек об оплате. Отправьте, пожалуйста, на dima.kolesov@inbox.ru или в вотсап 89031112299"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-033-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 54,
+       "end": 75,
+       "text": "dima.kolesov@inbox.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "01_support-033-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 89,
+       "end": 100,
+       "text": "89031112299",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-034",
+   "text": "Здравствуйте, я представитель ООО «Альфа-Трейд», ИНН 7801654320, хотим подключить эквайринг. Кто может проконсультировать?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-035",
+   "text": "Магазин на ул. Пушкина, 10 закрыт уже неделю, куда теперь сдавать заказы?"
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-036",
+   "text": "Коллеги, передаю обращение от клиента Шевчук Оксаны: не может войти в приложение, код не приходит."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-036-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 38,
+       "end": 51,
+       "text": "Шевчук Оксаны",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-037",
+   "text": "Оцените нашу работу по шкале от 1 до 10. Ваше мнение важно для нас!"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-038",
+   "text": "Добрый день! Меня зовут Любовь Сергеевна, я хотела бы узнать, когда будет в наличии модель X200."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-038-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 24,
+       "end": 40,
+       "text": "Любовь Сергеевна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-039",
+   "text": "Номер договора 2024/118-ЖК, арендатор Рахимов Ш. Б., просрочка 2 месяца."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-039-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 38,
+       "end": 51,
+       "text": "Рахимов Ш. Б.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-040",
+   "text": "Посылка вернулась отправителю, а я её ждала! Трек RR123456789RU. Адрес был верный: 620014, Екатеринбург, ул. Малышева, д. 51, кв. 9."
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-041",
+   "text": "Здравствуйте. Можно ли оплатить кредит с карты другого человека? Карта мужа, Давыдов Роман."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-041-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 77,
+       "end": 90,
+       "text": "Давыдов Роман",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-042",
+   "text": "Не могу зайти в госуслуги, пишет СНИЛС не найден, хотя вот он 303-623-083 24"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-042-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 62,
+       "end": 76,
+       "text": "303-623-083 24",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-043",
+   "text": "Прошу закрыть вклад и перевести остаток на счёт 40817810194892411578."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-043-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 48,
+       "end": 68,
+       "text": "40817810194892411578",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-044",
+   "text": "Привет, это снова я, Настя) заказ до сих пор не пришёл"
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-045",
+   "text": "В разделе «Мои данные» указан старый адрес. Новый: Краснодар, ул. Красная, 176, кв. 3. Обновите, пожалуйста."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-045-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 51,
+       "end": 85,
+       "text": "Краснодар, ул. Красная, 176, кв. 3",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-046",
+   "text": "По вопросам партнёрства пишите на partners@delivery-club.ru"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "01_support-047",
+   "text": "Оператор попросил продиктовать код из смс. Я не стала. Это мошенники? Звонили с +7 (495) 280-11-47"
+  }
+ },
+ {
+  "data": {
+   "id": "01_support-048",
+   "text": "Благодарю сотрудника Ефимову Анну из отделения на Садовой 5 за помощь с документами."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "01_support-048-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 21,
+       "end": 33,
+       "text": "Ефимову Анну",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "01_support-048-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 59,
+       "text": "Садовой 5",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-000",
+   "text": "Серёг, скинь номер Вадима, он мне нужен по машине"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-001",
+   "text": "держи +7 926 403 17 70"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-001-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 6,
+       "end": 22,
+       "text": "+7 926 403 17 70",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-002",
+   "text": "мам я у Кати ночую, телефон сел, пиши ей в вк katya_zhuravl"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-003",
+   "text": "Ребят, кто потерял кошелёк возле метро Достоевская? Внутри права на имя Горбунова Дениса Олеговича, отдам"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-004",
+   "text": "продаю диван, самовывоз с Ленинского 88к2, звонить после 18 89167788120 Игорь"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-004-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 26,
+       "end": 41,
+       "text": "Ленинского 88к2",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-004-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 60,
+       "end": 71,
+       "text": "89167788120",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-004-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 72,
+       "end": 77,
+       "text": "Игорь",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-005",
+   "text": "@marinka_art спасибо за рекомендацию мастера!!"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-005-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 12,
+       "text": "@marinka_art",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-006",
+   "text": "Всем привет! Я Надежда, новенькая в группе, буду вести у вас английский по средам"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-006-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 15,
+       "end": 22,
+       "text": "Надежда",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-007",
+   "text": "Надежда умирает последней, но наш проект умер раньше 😂"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-008",
+   "text": "кто в чате занимается налоговыми вычетами? мне кинули ИНН 166593877803 и попросили проверить задолженность, это безопасно?"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-009",
+   "text": "Антон ты где? мы уже у входа"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-009-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 5,
+       "text": "Антон",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-010",
+   "text": "Ищу попутчиков из Казани в Уфу на субботу, пишите в тг @ramil_drive"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-010-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 55,
+       "end": 67,
+       "text": "@ramil_drive",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-011",
+   "text": "Кто-нибудь знает хорошего стоматолога на Юго-Западе? Мне советовали доктора Мамедову, но отзывы разные"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-011-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 76,
+       "end": 84,
+       "text": "Мамедову",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-012",
+   "text": "окей, кидаю реквизиты: карта сбер 4276 3801 2255 7310, получатель Алина Рустамовна Г."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-012-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 34,
+       "end": 53,
+       "text": "4276 3801 2255 7310",
+       "labels": [
+        "CARD"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-012-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 66,
+       "end": 85,
+       "text": "Алина Рустамовна Г.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-013",
+   "text": "переводи на мой номер 8 999 012 44 55 через сбп, так быстрее"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-013-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 22,
+       "end": 37,
+       "text": "8 999 012 44 55",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-014",
+   "text": "Скидываемся на подарок Вере Павловне по 500р, переводы Лёше"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-015",
+   "text": "вера в себя — это главное, остальное приложится"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-016",
+   "text": "Лев сегодня не придёт, заболел"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-016-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 3,
+       "text": "Лев",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-017",
+   "text": "В зоопарке новый лев, сходите, очень красивый"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-018",
+   "text": "Сдам комнату, м. Выхино, ул. Молдагуловой, д. 20, 25к в месяц. Пишите Зарине в вотсап"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-018-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 14,
+       "end": 48,
+       "text": "м. Выхино, ул. Молдагуловой, д. 20",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-018-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 70,
+       "end": 76,
+       "text": "Зарине",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-019",
+   "text": "ну Макс как всегда опоздал на полчаса 🙄"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-019-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 3,
+       "end": 7,
+       "text": "Макс",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-020",
+   "text": "мой инст @polina.foto.spb, там все работы"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-020-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 9,
+       "end": 25,
+       "text": "@polina.foto.spb",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-021",
+   "text": "ребят чей это ноут? на крышке наклейка Kirill_B"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-021-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 47,
+       "text": "Kirill_B",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-022",
+   "text": "Народ, этот номер +7 (977) 402-55-19 звонит и представляется службой безопасности банка, не берите!"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-023",
+   "text": "Сегодня в 19:00 встречаемся у памятника Пушкину, не опаздывайте"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-024",
+   "text": "у кого есть контакт сантехника? нашла только Геннадия, но он не отвечает 89261234545"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-024-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 53,
+       "text": "Геннадия",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-024-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 73,
+       "end": 84,
+       "text": "89261234545",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-025",
+   "text": "Пишите на личку @not_a_bot_2001, отвечу всем"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-025-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 16,
+       "end": 31,
+       "text": "@not_a_bot_2001",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-026",
+   "text": "Спасибо всем за поздравления! Особенно Ане и Диме за торт"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-026-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 42,
+       "text": "Ане",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-026-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 49,
+       "text": "Диме",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-027",
+   "text": "Кто хочет котёнка? Мальчик, 2 месяца, приучен к лотку. Забирать в Мытищах, ул. Колпакова 34"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-027-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 66,
+       "end": 91,
+       "text": "Мытищах, ул. Колпакова 34",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-028",
+   "text": "Ильдар Маратович, добрый день! Можно перенести занятие на четверг?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-028-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 16,
+       "text": "Ильдар Маратович",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-029",
+   "text": "Роза, привет! Подскажи, во сколько завтра урок у Тимура?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-029-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 4,
+       "text": "Роза",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-029-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 49,
+       "end": 55,
+       "text": "Тимура",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-030",
+   "text": "Купила розы на даче, в этом году цветут как никогда"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-031",
+   "text": "Oleg Voronin добавил вас в группу «Дача 2026»"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-031-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 12,
+       "text": "Oleg Voronin",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-032",
+   "text": "Света, кинь почту, отправлю файлы"
+  }
+ },
+ {
+  "data": {
+   "id": "02_chats-033",
+   "text": "sveta.m.87@yandex.ru"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-033-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 20,
+       "text": "sveta.m.87@yandex.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-034",
+   "text": "всем добра) пишите в директ если нужны фото на документы"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-035",
+   "text": "Жанна сказала что завтра выходной, это правда?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-035-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 5,
+       "text": "Жанна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-036",
+   "text": "продам айфон 13, 128гб, торг. Звонить Артуру +79280004411, Махачкала"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-036-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 38,
+       "end": 44,
+       "text": "Артуру",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-036-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 57,
+       "text": "+79280004411",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-037",
+   "text": "Может кто-то подменить меня в субботу? Семёнова Ира, смена с 9 до 21"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-037-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 51,
+       "text": "Семёнова Ира",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-038",
+   "text": "Бабушка потерялась! Клавдия Ивановна Мельник, 81 год, ушла из дома на ул. Степана Разина 12. Если увидите, звоните 8-912-345-60-70"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-038-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 20,
+       "end": 44,
+       "text": "Клавдия Ивановна Мельник",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-038-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 70,
+       "end": 91,
+       "text": "ул. Степана Разина 12",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-038-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 115,
+       "end": 130,
+       "text": "8-912-345-60-70",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-039",
+   "text": "проверьте почту, я отправил на info.dvor@gmail.com, там расписание уборки"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-039-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 31,
+       "end": 50,
+       "text": "info.dvor@gmail.com",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-040",
+   "text": "Паша, Паша, ну сколько можно"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-040-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 4,
+       "text": "Паша",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-040-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 6,
+       "end": 10,
+       "text": "Паша",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-041",
+   "text": "Кинь ссылку на канал, забыл название"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-042",
+   "text": "t.me/igor_zhivopis — мой канал про живопись, подписывайтесь"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-042-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 18,
+       "text": "t.me/igor_zhivopis",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-043",
+   "text": "Маргарита Олеговна, спасибо вам за сына, он наконец полюбил математику"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-043-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 18,
+       "text": "Маргарита Олеговна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-044",
+   "text": "кто брал мои наушники с парты? Даня, это ты?"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-044-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 31,
+       "end": 35,
+       "text": "Даня",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-045",
+   "text": "в магазине на углу Садовой и Невского сегодня скидки 30%"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-046",
+   "text": "Друзья, срочно нужна кровь 2+ для Юлии Кравченко, больница №15, отделение гематологии"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-046-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 34,
+       "end": 48,
+       "text": "Юлии Кравченко",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-047",
+   "text": "Хозяйка квартиры Татьяна просит скинуть фото паспорта, это нормально? Серия и номер у меня 45 17 604422"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-047-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 17,
+       "end": 24,
+       "text": "Татьяна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "02_chats-047-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 91,
+       "end": 103,
+       "text": "45 17 604422",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-048",
+   "text": "ахах Женя опять уснул на паре"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "02_chats-048-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 5,
+       "end": 9,
+       "text": "Женя",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "02_chats-049",
+   "text": "Привет! Это Карина с работы, мой новый номер +7 915 ***-**-18, старый не работает"
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-000",
+   "text": "Директору МБОУ СОШ № 12\nот Лаптевой Марии Сергеевны,\nпроживающей по адресу: г. Тула, ул. Болдина, д. 91, кв. 44\nтел. 8 (4872) 31-18-90\n\nПрошу зачислить моего сына, Лаптева Артёма Дмитриевича, 07.11.2018 г.р., в 1-й класс."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-000-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 27,
+       "end": 51,
+       "text": "Лаптевой Марии Сергеевны",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-000-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 76,
+       "end": 111,
+       "text": "г. Тула, ул. Болдина, д. 91, кв. 44",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-000-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 117,
+       "end": 134,
+       "text": "8 (4872) 31-18-90",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "03_official-000-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 164,
+       "end": 190,
+       "text": "Лаптева Артёма Дмитриевича",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-000-4",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 192,
+       "end": 202,
+       "text": "07.11.2018",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-001",
+   "text": "ДОВЕРЕННОСТЬ\nЯ, Кириллов Павел Андреевич, паспорт 4608 512903, выдан ГУ МВД России по Московской области 12.03.2019, доверяю Кирилловой Ирине Васильевне получать мою почтовую корреспонденцию."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-001-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 16,
+       "end": 40,
+       "text": "Кириллов Павел Андреевич",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-001-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 61,
+       "text": "4608 512903",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "03_official-001-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 125,
+       "end": 152,
+       "text": "Кирилловой Ирине Васильевне",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-002",
+   "text": "Приказ № 214-к от 01.09.2026\nПринять Ермакова Станислава Юрьевича на должность инженера-программиста с окладом согласно штатному расписанию."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-003",
+   "text": "Уважаемые коллеги! С 1 октября меняется порядок согласования командировок. Подробности у отдела кадров, hr@company.ru, доб. 1204."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-004",
+   "text": "Справка дана Исмаиловой Севиль Рафиковне, 23 июня 2004 года рождения, в том, что она действительно обучается на 3 курсе очной формы обучения."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-004-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 13,
+       "end": 40,
+       "text": "Исмаиловой Севиль Рафиковне",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-004-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 42,
+       "end": 59,
+       "text": "23 июня 2004 года",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-005",
+   "text": "Договор аренды № 17/2026\nАрендодатель: Ковальчук Николай Иванович, паспорт серия 4012 номер 883120, зарегистрирован по адресу: Санкт-Петербург, Гражданский пр., д. 22, кв. 301.\nАрендатор: ООО «Северная звезда», ИНН 7814512396, ОГРН 1117847123456."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-005-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 65,
+       "text": "Ковальчук Николай Иванович",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-005-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 81,
+       "end": 85,
+       "text": "4012",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "03_official-005-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 92,
+       "end": 98,
+       "text": "883120",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "03_official-005-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 127,
+       "end": 175,
+       "text": "Санкт-Петербург, Гражданский пр., д. 22, кв. 301",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-006",
+   "text": "Прошу предоставить мне стандартный налоговый вычет на ребёнка. ИНН 418016097543, СНИЛС 262-899-305 21. Щербакова О.А."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-006-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 67,
+       "end": 79,
+       "text": "418016097543",
+       "labels": [
+        "INN"
+       ]
+      }
+     },
+     {
+      "id": "03_official-006-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 87,
+       "end": 101,
+       "text": "262-899-305 21",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-006-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 103,
+       "end": 117,
+       "text": "Щербакова О.А.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-007",
+   "text": "Резюме\nФомин Глеб, 32 года, ищу работу backend-разработчиком"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-007-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 7,
+       "end": 17,
+       "text": "Фомин Глеб",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-008",
+   "text": "Резюме\nФомин Глеб\nКонтакты: gleb.fomin@proton.me, +7 (921) 600-12-45, телеграм @gfomin\nОпыт: Python-разработчик, 6 лет."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-008-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 7,
+       "end": 17,
+       "text": "Фомин Глеб",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-008-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 28,
+       "end": 48,
+       "text": "gleb.fomin@proton.me",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "03_official-008-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 68,
+       "text": "+7 (921) 600-12-45",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "03_official-008-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 79,
+       "end": 86,
+       "text": "@gfomin",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-009",
+   "text": "Служебная записка\nДовожу до вашего сведения, что сотрудник склада Мирзоев А. 14.09 отсутствовал на рабочем месте без уважительной причины."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-009-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 66,
+       "end": 76,
+       "text": "Мирзоев А.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-010",
+   "text": "Протокол собрания собственников МКД по адресу ул. Чкалова, д. 7\nПредседатель собрания: Голубева Н. П. (кв. 15)\nСекретарь: Власов Д. Е. (кв. 42)"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-010-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 46,
+       "end": 63,
+       "text": "ул. Чкалова, д. 7",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-010-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 87,
+       "end": 101,
+       "text": "Голубева Н. П.",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-010-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 122,
+       "end": 134,
+       "text": "Власов Д. Е.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-011",
+   "text": "Заявление на отпуск\nПрошу предоставить ежегодный оплачиваемый отпуск с 13.10.2026 по 26.10.2026.\nРуденко Алиса Викторовна, отдел маркетинга"
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-012",
+   "text": "Благодарственное письмо\nКоллектив ООО «Вектор» выражает благодарность Панкратову Илье Сергеевичу за добросовестный труд и вклад в развитие компании."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-013",
+   "text": "В соответствии с п. 4.2 договора поставки № 55-П поставщик обязан уведомить покупателя о задержке не позднее чем за 3 рабочих дня."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-014",
+   "text": "ИП Абдуллаев Руслан Магомедович\nИНН 149332871158\nр/с 40817810587148418583\nСчёт на оплату № 311 от 22.09.2026"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-014-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 3,
+       "end": 31,
+       "text": "Абдуллаев Руслан Магомедович",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-014-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 36,
+       "end": 48,
+       "text": "149332871158",
+       "labels": [
+        "INN"
+       ]
+      }
+     },
+     {
+      "id": "03_official-014-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 53,
+       "end": 73,
+       "text": "40817810587148418583",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-015",
+   "text": "Выписка из ЕГРЮЛ: генеральный директор — Ткаченко Виталий Олегович."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-016",
+   "text": "Характеристика\nКолесникова Дарья зарекомендовала себя ответственной и исполнительной ученицей, принимает активное участие в олимпиадах."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-016-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 15,
+       "end": 32,
+       "text": "Колесникова Дарья",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-017",
+   "text": "Уважаемый Сергей Николаевич! Приглашаем вас на заседание совета директоров, которое состоится 15 октября в 11:00."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-018",
+   "text": "Согласие на обработку персональных данных\nЯ, Мухина Елизавета Андреевна, 12.12.1995 г.р., паспорт 45 20 118834, даю согласие ООО «Медлайн» на обработку моих персональных данных."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-018-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 71,
+       "text": "Мухина Елизавета Андреевна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-018-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 73,
+       "end": 83,
+       "text": "12.12.1995",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     },
+     {
+      "id": "03_official-018-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 98,
+       "end": 110,
+       "text": "45 20 118834",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-019",
+   "text": "Прошу уволить меня по собственному желанию 30 сентября 2026 г. Бойко (подпись)"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-019-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 63,
+       "end": 68,
+       "text": "Бойко",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-020",
+   "text": "Реквизиты для оплаты: ООО «ПромСнаб», ИНН 6671123450, КПП 667101001, р/с 40702810900000012345, БИК 046577964."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-021",
+   "text": "Акт приёма-передачи квартиры по адресу г. Новосибирск, ул. Кирова, д. 27, кв. 58. Передал: Лебедев А. А.. Принял: Лебедева Е. В.."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-021-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 80,
+       "text": "г. Новосибирск, ул. Кирова, д. 27, кв. 58",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-021-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 91,
+       "end": 104,
+       "text": "Лебедев А. А.",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-021-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 114,
+       "end": 128,
+       "text": "Лебедева Е. В.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-022",
+   "text": "Коллеги, напоминаю: отчёты по проекту сдаём до пятницы. Вопросы — Марине из PMO."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-022-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 66,
+       "end": 72,
+       "text": "Марине",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-023",
+   "text": "Уведомляем, что с 01.11.2026 плата за вывоз ТКО составит 142 руб. с человека."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-024",
+   "text": "Исковое заявление\nИстец: Сафонова Галина Петровна, 1961 г.р., адрес: Ярославль, пр-т Ленина, 44-17\nОтветчик: Сафонов Виктор Алексеевич, адрес неизвестен."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-024-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 25,
+       "end": 49,
+       "text": "Сафонова Галина Петровна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-024-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 51,
+       "end": 55,
+       "text": "1961",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     },
+     {
+      "id": "03_official-024-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 69,
+       "end": 98,
+       "text": "Ярославль, пр-т Ленина, 44-17",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-024-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 109,
+       "end": 134,
+       "text": "Сафонов Виктор Алексеевич",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-025",
+   "text": "Заявка на пропуск: Гарипов Айдар, паспорт 9214 ******, автомобиль Kia Rio."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-025-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 19,
+       "end": 32,
+       "text": "Гарипов Айдар",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-025-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 42,
+       "end": 53,
+       "text": "9214 ******",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-026",
+   "text": "На основании заявления Ворониной Т. С. произвести перерасчёт заработной платы за август."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-027",
+   "text": "Кандидат: Алексеева Вероника. Дата рождения: 5 апреля 1998 г. Образование: МГУ, факультет журналистики."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-027-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 28,
+       "text": "Алексеева Вероника",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-027-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 61,
+       "text": "5 апреля 1998 г.",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-028",
+   "text": "Прошу выдать дубликат пропуска взамен утерянного. Табельный номер 004521. Никифоров"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-028-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 74,
+       "end": 83,
+       "text": "Никифоров",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-029",
+   "text": "Письмо-подтверждение\nПодтверждаем бронирование конференц-зала на 20 человек 03.10.2026 с 10:00 до 14:00."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-030",
+   "text": "Направляем вам акт сверки за III квартал. Контактное лицо: Юлия Бочкарёва, yu.bochkareva@stalprom.ru, +7 343 210-40-40 доб. 115."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-030-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 59,
+       "end": 73,
+       "text": "Юлия Бочкарёва",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-030-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 75,
+       "end": 100,
+       "text": "yu.bochkareva@stalprom.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "03_official-030-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 102,
+       "end": 118,
+       "text": "+7 343 210-40-40",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-031",
+   "text": "Опекун: Шарипова Гульнара Ильдаровна, паспорт 8015 334456, СНИЛС 859-380-320 44."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-031-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 8,
+       "end": 36,
+       "text": "Шарипова Гульнара Ильдаровна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-031-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 46,
+       "end": 57,
+       "text": "8015 334456",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "03_official-031-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 65,
+       "end": 79,
+       "text": "859-380-320 44",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-032",
+   "text": "Сведения о застрахованном лице: СНИЛС ***-***-*** 43"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-032-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 38,
+       "end": 52,
+       "text": "***-***-*** 43",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-033",
+   "text": "Решением комиссии победителем конкурса признан проект «Умный двор» (руководитель — Ершов Константин)."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-033-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 83,
+       "end": 99,
+       "text": "Ершов Константин",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-034",
+   "text": "Уважаемые жильцы! В связи с ремонтом водопровода 2 октября горячей воды не будет с 9:00 до 18:00. Управляющая компания «Уют»."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-035",
+   "text": "Прошу перевести остаток средств с моего лицевого счёта 40817810947196593423 в связи с закрытием договора. Орлова В."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-035-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 55,
+       "end": 75,
+       "text": "40817810947196593423",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     },
+     {
+      "id": "03_official-035-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 106,
+       "end": 115,
+       "text": "Орлова В.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-036",
+   "text": "Список участников тренинга: Иванова А., Петров Б., Сидоренко В., Ким Д."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-037",
+   "text": "Ответственный за пожарную безопасность в здании по адресу пр. Мира, 101 — Захарченко Олег, тел. +7 (495) 687-33-21."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-037-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 58,
+       "end": 71,
+       "text": "пр. Мира, 101",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-037-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 74,
+       "end": 89,
+       "text": "Захарченко Олег",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-037-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 96,
+       "end": 114,
+       "text": "+7 (495) 687-33-21",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-038",
+   "text": "Напоминаем, что ИНН 10 знаков у юрлиц и 12 у физлиц. Проверяйте реквизиты перед отправкой."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-039",
+   "text": "Направляю вам копию ИНН (2194711220) — у меня старое свидетельство, там 10 цифр, так бывает? Егорова"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-039-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 25,
+       "end": 35,
+       "text": "2194711220",
+       "labels": [
+        "INN"
+       ]
+      }
+     },
+     {
+      "id": "03_official-039-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 93,
+       "end": 100,
+       "text": "Егорова",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-040",
+   "text": "В ответ на ваш запрос от 15.09 сообщаем, что сведения о лице с указанными данными в базе отсутствуют."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-041",
+   "text": "Заявитель Хабибуллин Ренат просит выдать копию трудовой книжки. Адрес для отправки: 423800, Набережные Челны, пр-т Мира, 49/10, кв. 70."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-042",
+   "text": "Командировочное удостоверение № 88. Командируется Лукин П. Р. в г. Самару на 3 дня."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-042-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 61,
+       "text": "Лукин П. Р.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-043",
+   "text": "Рекомендательное письмо\nАнастасия Королёва проработала в нашей компании 3 года. Готов ответить на вопросы: Родионов Максим, m.rodionov@teh-group.ru."
+  }
+ },
+ {
+  "data": {
+   "id": "03_official-044",
+   "text": "Выписка по счёту 40817810018684833969 за период 01.08.2026–31.08.2026. Владелец: Шубина Кира Андреевна."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-044-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 17,
+       "end": 37,
+       "text": "40817810018684833969",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     },
+     {
+      "id": "03_official-044-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 81,
+       "end": 102,
+       "text": "Шубина Кира Андреевна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-045",
+   "text": "Уведомление о расторжении договора оказания услуг № 34 направлено по адресу регистрации заказчика."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-046",
+   "text": "Уважаемый Азамат Бекович, ваше заявление принято, номер обращения 7712/2026."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-046-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 24,
+       "text": "Азамат Бекович",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-047",
+   "text": "Сотрудник Кузьмин Родион (СНИЛС 296-507-359 16) переведён в отдел логистики."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-047-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 24,
+       "text": "Кузьмин Родион",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-047-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 32,
+       "end": 46,
+       "text": "296-507-359 16",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "03_official-048",
+   "text": "График дежурств на октябрь: 1–7 — Смирнова, 8–14 — Абрамов, 15–21 — Чен, 22–31 — Носкова."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "03_official-048-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 34,
+       "end": 42,
+       "text": "Смирнова",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-048-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 51,
+       "end": 58,
+       "text": "Абрамов",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-048-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 68,
+       "end": 71,
+       "text": "Чен",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "03_official-048-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 81,
+       "end": 88,
+       "text": "Носкова",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-000",
+   "text": "Уважаемый клиент! По вашей карте МИР *3380 выполнена операция на сумму 1 250,00 RUB. Баланс: 18 402,15 RUB."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-001",
+   "text": "Перевод по СБП для Эльвира Ш. на номер +7 917 ***-**-64 выполнен."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-001-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 19,
+       "end": 29,
+       "text": "Эльвира Ш.",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-001-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 55,
+       "text": "+7 917 ***-**-64",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-002",
+   "text": "Заявка на кредит: Гончаров Семён Ильич, 30.08.1987, паспорт 3615 209837, доход 120 000 руб., стаж 4 года."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-003",
+   "text": "Ваш кредитный договор № 625/0012-0098342 погашен досрочно. Спасибо, что выбрали нас!"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-004",
+   "text": "Пациент: Хасанова Лейла Руслановна, 4 ноября 1990. Диагноз: ОРВИ. Рекомендовано: обильное питьё, постельный режим 5 дней."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-004-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 9,
+       "end": 34,
+       "text": "Хасанова Лейла Руслановна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-004-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 36,
+       "end": 49,
+       "text": "4 ноября 1990",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-005",
+   "text": "Запись на приём к врачу-кардиологу Беляеву О. Н. подтверждена: 07.10.2026 в 10:30, кабинет 214."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-005-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 35,
+       "end": 48,
+       "text": "Беляеву О. Н.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-006",
+   "text": "Анализ крови готов. Результаты доступны в личном кабинете. Полис ОМС 7751230891000452."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-007",
+   "text": "Направление на МРТ выдано пациенту Кудрявцеву, 58 лет, для исключения грыжи поясничного отдела."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-007-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 35,
+       "end": 45,
+       "text": "Кудрявцеву",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-008",
+   "text": "Уважаемая Елена Викторовна, напоминаем о приёме у стоматолога завтра в 17:00. Для отмены позвоните 8-800-700-11-22."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-008-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 26,
+       "text": "Елена Викторовна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-009",
+   "text": "Госуслуги: заявление на загранпаспорт принято. Заявитель: Сорокин М. Ю., СНИЛС 709-935-075 32."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-009-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 58,
+       "end": 71,
+       "text": "Сорокин М. Ю.",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-009-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 79,
+       "end": 93,
+       "text": "709-935-075 32",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-010",
+   "text": "Налоговое уведомление для Филатова Германа Сергеевича, ИНН 525917953306. Налог на имущество за 2025 год: 2 314 руб. Объект: квартира по адресу г. Пермь, ул. Сибирская, д. 35, кв. 7."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-010-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 26,
+       "end": 53,
+       "text": "Филатова Германа Сергеевича",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-010-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 59,
+       "end": 71,
+       "text": "525917953306",
+       "labels": [
+        "INN"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-010-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 143,
+       "end": 180,
+       "text": "г. Пермь, ул. Сибирская, д. 35, кв. 7",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-011",
+   "text": "Для подтверждения личности назовите кодовое слово и последние 4 цифры паспорта."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-012",
+   "text": "Входящий перевод 5 000 ₽ от Арсения К.. Сообщение: «за билеты»"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-012-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 28,
+       "end": 38,
+       "text": "Арсения К.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-013",
+   "text": "Вы подключили автоплатёж за мобильную связь для номера +7 905 612-00-33 с карты **** 1208."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-013-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 55,
+       "end": 71,
+       "text": "+7 905 612-00-33",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-013-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 80,
+       "end": 89,
+       "text": "**** 1208",
+       "labels": [
+        "CARD"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-014",
+   "text": "Банк отказал в рефинансировании. Причина: высокая долговая нагрузка. Обратитесь повторно через 3 месяца."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-015",
+   "text": "Получатель: Даниленко Оксана Юрьевна\nНомер счёта: 40817810041352560123\nБанк получателя: ПАО Сбербанк, БИК 044525225\nНазначение: возврат долга"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-015-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 12,
+       "end": 36,
+       "text": "Даниленко Оксана Юрьевна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-015-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 70,
+       "text": "40817810041352560123",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-016",
+   "text": "Страховой полис ОСАГО оформлен на Гаврилова Кирилла, автомобиль Hyundai Solaris, госномер А123ВС777."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-016-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 34,
+       "end": 51,
+       "text": "Гаврилова Кирилла",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-017",
+   "text": "Детская поликлиника № 8. Прививочный сертификат: Зуев Матвей, дата рождения 19.05.2021."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-017-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 49,
+       "end": 60,
+       "text": "Зуев Матвей",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-017-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 76,
+       "end": 86,
+       "text": "19.05.2021",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-018",
+   "text": "Выписка из медкарты. Аллергия на пенициллин. Лечащий врач — Шарова Т. К.."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-018-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 60,
+       "end": 72,
+       "text": "Шарова Т. К.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-019",
+   "text": "Заявление о выдаче справки о несудимости подано Трофимовым Ильёй Андреевичем через МФЦ на ул. Бутлерова, 17Б."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-019-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 48,
+       "end": 76,
+       "text": "Трофимовым Ильёй Андреевичем",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-019-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 90,
+       "end": 108,
+       "text": "ул. Бутлерова, 17Б",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-020",
+   "text": "Росреестр: право собственности на объект по адресу Московская обл., г. Подольск, ул. Кирова, д. 60, кв. 91 зарегистрировано за Никитиной Софьей Олеговной."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-020-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 51,
+       "end": 106,
+       "text": "Московская обл., г. Подольск, ул. Кирова, д. 60, кв. 91",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-020-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 127,
+       "end": 153,
+       "text": "Никитиной Софьей Олеговной",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-021",
+   "text": "Кредитная карта одобрена! Лимит 150 000 ₽. Получите карту в отделении или закажите доставку."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-022",
+   "text": "Операция отклонена: недостаточно средств. Карта 5536 91** **** 2270."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-022-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 48,
+       "end": 67,
+       "text": "5536 91** **** 2270",
+       "labels": [
+        "CARD"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-023",
+   "text": "Пособие на ребёнка назначено. Получатель: Мельникова Ксения, ребёнок: Мельников Фёдор, 02.02.2024."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-023-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 42,
+       "end": 59,
+       "text": "Мельникова Ксения",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-023-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 70,
+       "end": 85,
+       "text": "Мельников Фёдор",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-023-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 87,
+       "end": 97,
+       "text": "02.02.2024",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-024",
+   "text": "Штраф ГИБДД 500 руб. за превышение скорости. Постановление № 18810177260915001234. Оплатите со скидкой 50% до 05.10."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-025",
+   "text": "Уважаемый Тагир Ахмедович! Ваш вклад «Надёжный» пролонгирован на 6 месяцев под 14% годовых."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-025-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 25,
+       "text": "Тагир Ахмедович",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-026",
+   "text": "Ваш код для входа: 4471. Никому его не сообщайте."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-027",
+   "text": "Карта 2200 7012 4431 9985 на имя SERGEI POLYAKOV заблокирована по вашему запросу."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-027-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 6,
+       "end": 25,
+       "text": "2200 7012 4431 9985",
+       "labels": [
+        "CARD"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-027-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 33,
+       "end": 48,
+       "text": "SERGEI POLYAKOV",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-028",
+   "text": "Электронный больничный № 910234567891 открыт 22.09.2026. Работодатель: ООО «Логистик-Сервис»."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-029",
+   "text": "Жалоба: в аптеке на Ленина, 12 мне продали просроченный препарат. Чек прилагаю. Кравчук Людмила, +7 (900) 234-56-78"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-029-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 20,
+       "end": 30,
+       "text": "Ленина, 12",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-029-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 80,
+       "end": 95,
+       "text": "Кравчук Людмила",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-029-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 97,
+       "end": 115,
+       "text": "+7 (900) 234-56-78",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-030",
+   "text": "В приёмном отделении находится пациентка без документов, на вид 70 лет, назвалась Валентиной. Родственников просим позвонить по телефону 112."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-030-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 82,
+       "end": 92,
+       "text": "Валентиной",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-031",
+   "text": "Медицинская справка для бассейна: Сергеева Полина, 15.08.2013, здорова, допускается к занятиям."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-031-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 34,
+       "end": 49,
+       "text": "Сергеева Полина",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-031-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 51,
+       "end": 61,
+       "text": "15.08.2013",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-032",
+   "text": "Пенсионный фонд: извещение о состоянии лицевого счёта. СНИЛС 04957170791, ФИО Горелов Анатолий Петрович."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-032-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 61,
+       "end": 72,
+       "text": "04957170791",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-032-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 78,
+       "end": 103,
+       "text": "Горелов Анатолий Петрович",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-033",
+   "text": "Сообщаем, что кэшбэк за сентябрь зачислен на ваш бонусный счёт."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-034",
+   "text": "Заявка на ипотеку № 7712003: созаёмщик Юдина Марина Игоревна, ИНН 820139916107, телефон 8 916 402 88 01."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-034-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 60,
+       "text": "Юдина Марина Игоревна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-034-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 66,
+       "end": 78,
+       "text": "820139916107",
+       "labels": [
+        "INN"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-034-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 88,
+       "end": 103,
+       "text": "8 916 402 88 01",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-035",
+   "text": "Вы записаны на вакцинацию. Адрес: поликлиника № 3, ул. Полевая, 8, кабинет 105."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-036",
+   "text": "Карта оканчивается на 7742? Если нет, выберите другую карту для оплаты."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-036-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 22,
+       "end": 26,
+       "text": "7742",
+       "labels": [
+        "CARD"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-037",
+   "text": "Подтверждаем получение вашего паспорта 45 19 ***412 для оформления сим-карты."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-038",
+   "text": "Сведения о доходах: Александрова Маргарита, ИНН 520903217314, налоговый агент ООО «Грант», ИНН 7704123456."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-038-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 20,
+       "end": 42,
+       "text": "Александрова Маргарита",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-038-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 48,
+       "end": 60,
+       "text": "520903217314",
+       "labels": [
+        "INN"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-039",
+   "text": "Паспорт 6509 441278 числится в списке недействительных. Обратитесь в отделение МВД."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-039-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 8,
+       "end": 19,
+       "text": "6509 441278",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-040",
+   "text": "Для восстановления доступа укажите email, привязанный к аккаунту, например ivan***@mail.ru."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-040-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 75,
+       "end": 90,
+       "text": "ivan***@mail.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-041",
+   "text": "Социальная выплата будет перечислена на карту МИР 2202 20** **** 5521 до 10 числа."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-041-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 69,
+       "text": "2202 20** **** 5521",
+       "labels": [
+        "CARD"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-042",
+   "text": "Уважаемый пользователь! Мы обновили политику конфиденциальности. Ознакомиться можно на сайте."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-043",
+   "text": "Родитель: Касымова Айгуль, +7 701 555 12 34. Ребёнок: Касымов Алан, 11.07.2016. Группа: плавание, средний уровень."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-043-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 25,
+       "text": "Касымова Айгуль",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-043-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 27,
+       "end": 43,
+       "text": "+7 701 555 12 34",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-043-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 54,
+       "end": 66,
+       "text": "Касымов Алан",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-043-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 68,
+       "end": 78,
+       "text": "11.07.2016",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-044",
+   "text": "Выдан рецепт на препарат строгой отчётности пациенту Сидорчук А. В., 1954 г.р."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-044-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 53,
+       "end": 67,
+       "text": "Сидорчук А. В.",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-044-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 69,
+       "end": 73,
+       "text": "1954",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-045",
+   "text": "Дата следующего визита: 14.11.2026. Не забудьте взять результаты анализов."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-046",
+   "text": "Уведомляем о поступлении средств на ваш счёт ***4312 в размере 45 000 руб."
+  }
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-047",
+   "text": "Налоговый вычет одобрен. Сумма 13 000 руб. будет перечислена на счёт 40817810008691413145 в течение 30 дней. Получатель: Мамонтов Эдуард."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-047-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 69,
+       "end": 89,
+       "text": "40817810008691413145",
+       "labels": [
+        "ACCOUNT"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-047-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 121,
+       "end": 136,
+       "text": "Мамонтов Эдуард",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-048",
+   "text": "Отказ в выдаче карты: данные паспорта не совпадают с данными в анкете. Проверьте дату рождения 07.07.1977."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-048-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 95,
+       "end": 105,
+       "text": "07.07.1977",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "04_bank_med_gov-049",
+   "text": "Ближайший банкомат: ТЦ «Европа», пр-т Победы, 4, работает круглосуточно."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "04_bank_med_gov-049-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 33,
+       "end": 47,
+       "text": "пр-т Победы, 4",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-000",
+   "text": "Вера, Надежда, Любовь и мать их Софья — святые мученицы, память 30 сентября."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-001",
+   "text": "Вера в светлое будущее у нас осталась, а вот надежды на премию уже нет."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-002",
+   "text": "Вера сказала, что придёт к восьми."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "05_hard_negatives-002-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 4,
+       "text": "Вера",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-003",
+   "text": "Любовь к порядку у него с детства."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-004",
+   "text": "Пришла Любовь из бухгалтерии, просила подписать акт."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "05_hard_negatives-004-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 7,
+       "end": 13,
+       "text": "Любовь",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-005",
+   "text": "Роман Толстого «Война и мир» переиздан в новой серии."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-006",
+   "text": "Роман сказал, что Толстого не читал, зато смотрел сериал."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "05_hard_negatives-006-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 5,
+       "text": "Роман",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-007",
+   "text": "Лев Толстой родился в Ясной Поляне."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-008",
+   "text": "Улица Горького переименована в Тверскую ещё в 1990 году."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-009",
+   "text": "Музей-квартира Достоевского закрыт на реставрацию до весны."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-010",
+   "text": "По теореме Пифагора квадрат гипотенузы равен сумме квадратов катетов."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-011",
+   "text": "Закон Ома знает каждый школьник, а закон Мура уже не работает."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-012",
+   "text": "Премию имени Кандинского вручат в декабре."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-013",
+   "text": "Номер заказа 79161234567 — проверьте статус на сайте. Это не телефон, а ID заказа из 11 цифр."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-014",
+   "text": "Артикул товара: 2202201123456789. Размер 42, цвет чёрный."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-015",
+   "text": "ОГРН 1027700132195, КПП 773601001, ОКПО 00032537."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-016",
+   "text": "Код подразделения 770-093, дата выдачи 15.06.2015."
+  }
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-017",
+   "text": "Трек-номер 80085512347902, отследить можно на сайте Почты России."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-018",
+   "text": "Код ОКВЭД 62.01 — разработка компьютерного программного обеспечения."
+  }
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-019",
+   "text": "Горячая линия: 8 (800) 100-00-00, звонок бесплатный."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-020",
+   "text": "Пишите на support@yandex.ru или noreply@gosuslugi.ru — ответа всё равно не будет."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-021",
+   "text": "Сумма к оплате 4 276 380 руб. 12 коп."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-022",
+   "text": "Версия приложения 4.12.2204.1188, сборка от 10.09."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-023",
+   "text": "Температура 36,6, давление 120/80, пульс 72."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-024",
+   "text": "Наш офис: Бизнес-центр «Сити», 12 этаж. Приходите!"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-025",
+   "text": "Живу в Казани, но родом из Самары."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-026",
+   "text": "Доставка по Москве и области — бесплатно при заказе от 3000 руб."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-027",
+   "text": "Встреча в 18:30 на Чистых прудах, у памятника Грибоедову."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-028",
+   "text": "Компания «Иванов и партнёры» выиграла тендер на 12 млн."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-029",
+   "text": "Директор ООО «Петров» подписал договор. Имя директора в договоре не указано."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-030",
+   "text": "Сбербанк, Тинькофф и ВТБ повысили ставки по вкладам."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-031",
+   "text": "@everyone, собрание в пятницу в 15:00"
+  }
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-032",
+   "text": "Используйте хэштег #скидки2026 и отмечайте @official_shop в сторис."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-033",
+   "text": "Нужно заполнить поле «Фамилия» латиницей, как в загранпаспорте."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-034",
+   "text": "Пример заполнения: Иванов Иван Иванович, 01.01.1990, паспорт 0000 000000."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-035",
+   "text": "Ему 45 лет, ей 38, детям 10 и 7."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-036",
+   "text": "Родился в 1990-х, вырос в Туле."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-037",
+   "text": "День рождения компании — 12.03.2004, приглашаем всех на праздник!"
+  }
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-038",
+   "text": "Мир, труд, май! Карта мира висит в кабинете географии."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-039",
+   "text": "Дело № 2-1488/2026 рассмотрено Кировским районным судом."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-040",
+   "text": "Паспорт качества на партию № 5520, серия изделия А-17."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-041",
+   "text": "СНИЛС — это страховой номер из 11 цифр, его можно найти в Госуслугах."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-042",
+   "text": "Банковская карта — это платёжный инструмент, выпускаемый банком."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-043",
+   "text": "Иванов, Петров, Сидоров — самые распространённые фамилии в учебниках по праву."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-044",
+   "text": "Звонок от Петрова был в 14:05, он просил перезвонить."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "05_hard_negatives-044-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 17,
+       "text": "Петрова",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-045",
+   "text": "Мороз и солнце; день чудесный! Ещё ты дремлешь, друг прелестный."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-046",
+   "text": "Мороз сегодня до −25, одевайтесь теплее."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-047",
+   "text": "Мороз Анатолий, 8Б класс, — победитель олимпиады по физике."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "05_hard_negatives-047-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 14,
+       "text": "Мороз Анатолий",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-048",
+   "text": "Паттерн «Одиночка» (Singleton) нарушает принцип единственной ответственности."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "05_hard_negatives-049",
+   "text": "В стеке Python, FastAPI, PostgreSQL. Опыт от 3 лет."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-000",
+   "text": "Добрый день! Пишу по поводу возврата. В прошлом месяце я (Карпенко Вадим Олегович) оформил заказ на имя жены — Карпенко Юлия, доставка была на наш адрес Самара, ул. Ново-Садовая 106б, кв 33. Товар не подошёл, курьер забрал его 12.09, но деньги так и не вернулись. Оплачивал картой 2200 1523 **** 6612. Мой телефон 8(927)600-1-600, почта жены yulia.karp@mail.ru. Прошу ускорить возврат, иначе обращусь в Роспотребнадзор."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-000-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 58,
+       "end": 81,
+       "text": "Карпенко Вадим Олегович",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-000-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 111,
+       "end": 124,
+       "text": "Карпенко Юлия",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-000-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 153,
+       "end": 189,
+       "text": "Самара, ул. Ново-Садовая 106б, кв 33",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-000-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 281,
+       "end": 300,
+       "text": "2200 1523 **** 6612",
+       "labels": [
+        "CARD"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-000-4",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 314,
+       "end": 329,
+       "text": "8(927)600-1-600",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-000-5",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 342,
+       "end": 360,
+       "text": "yulia.karp@mail.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-001",
+   "text": "паспорт серии 45 08 номер то ли 771236 то ли 771263 не помню точно, щас гляну"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-001-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 14,
+       "end": 19,
+       "text": "45 08",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-001-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 32,
+       "end": 38,
+       "text": "771236",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-002",
+   "text": "Паспорт: серия 4514, номер — сейчас найду — 093312."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-002-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 15,
+       "end": 19,
+       "text": "4514",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-002-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 44,
+       "end": 50,
+       "text": "093312",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-003",
+   "text": "тел 8 917 ... 283 11 04"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-003-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 4,
+       "end": 23,
+       "text": "8 917 ... 283 11 04",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-004",
+   "text": "Мой номер: восемь девятьсот шестнадцать сто двадцать три сорок пять шестьдесят семь"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-004-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 11,
+       "end": 83,
+       "text": "восемь девятьсот шестнадцать сто двадцать три сорок пять шестьдесят семь",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-005",
+   "text": "Zdravstvuyte, menya zovut Aleksandr Petrov, ya ne mogu voiti v akkaunt. Moi nomer +79161234567."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-005-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 26,
+       "end": 42,
+       "text": "Aleksandr Petrov",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-005-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 82,
+       "end": 94,
+       "text": "+79161234567",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-006",
+   "text": "Hi! I'm Anna Sokolova, writing about order 5512. My email is anna.sokolova@outlook.com"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-006-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 8,
+       "end": 21,
+       "text": "Anna Sokolova",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-006-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 61,
+       "end": 86,
+       "text": "anna.sokolova@outlook.com",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-007",
+   "text": "снилс 123 456 789 00 хотя может и ошибся в последних цифрах"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-007-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 6,
+       "end": 20,
+       "text": "123 456 789 00",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-008",
+   "text": "Мнн зовут Олга Петрвна, пишу с тлф дочери, мой 89О31112233 не работает"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-008-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 22,
+       "text": "Олга Петрвна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-008-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 47,
+       "end": 58,
+       "text": "89О31112233",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-009",
+   "text": "ИНН:630870916384;СНИЛС:280-317-952 71;тел:89051234567"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-009-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 4,
+       "end": 16,
+       "text": "630870916384",
+       "labels": [
+        "INN"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-009-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 23,
+       "end": 37,
+       "text": "280-317-952 71",
+       "labels": [
+        "SNILS"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-009-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 42,
+       "end": 53,
+       "text": "89051234567",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-010",
+   "text": "Прохоров — это не тот Прохоров, который владелец команды, а наш сосед по даче, Николай Прохоров, +7 916 440 11 22"
+  }
+ },
+ {
+  "data": {
+   "id": "06_long_messy-011",
+   "text": "Коротко о себе: меня зовут Эмиль, мне 27, живу на Васильевском, 7-я линия, д. 34, работаю в IT. Хочу завести собаку, ищу щенка лабрадора. Звоните или пишите в телеграм @emil_lab."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-011-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 27,
+       "end": 32,
+       "text": "Эмиль",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-011-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 80,
+       "text": "Васильевском, 7-я линия, д. 34",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-011-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 168,
+       "end": 177,
+       "text": "@emil_lab",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-012",
+   "text": "Отправитель: Ли Синь (li.xin@163.com)\nПолучатель: Кузнецова Дарья\nТема: счёт за перевод"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-012-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 13,
+       "end": 20,
+       "text": "Ли Синь",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-012-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 22,
+       "end": 36,
+       "text": "li.xin@163.com",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-012-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 50,
+       "end": 65,
+       "text": "Кузнецова Дарья",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-013",
+   "text": "Для оплаты: номер карты 2202-2022-1234-5670 (Сбер), получатель Никита Андреевич В., или по номеру телефона +7 999 999 00 11. Назначение не указывайте."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-013-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 24,
+       "end": 43,
+       "text": "2202-2022-1234-5670",
+       "labels": [
+        "CARD"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-013-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 63,
+       "end": 82,
+       "text": "Никита Андреевич В.",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-013-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 107,
+       "end": 123,
+       "text": "+7 999 999 00 11",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-014",
+   "text": "Меня зовут Абдурахмонов Шохрух Ботирович, я гражданин Узбекистана, патент получил 01.08.2026. Живу по адресу г. Москва, ул. Верхние Поля, д. 12, корп. 3, кв. 140. Работодатель ИП Гасанов Эльдар Рафикович, ИНН 733022584152."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-014-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 11,
+       "end": 40,
+       "text": "Абдурахмонов Шохрух Ботирович",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-014-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 109,
+       "end": 161,
+       "text": "г. Москва, ул. Верхние Поля, д. 12, корп. 3, кв. 140",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-014-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 179,
+       "end": 203,
+       "text": "Гасанов Эльдар Рафикович",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-014-3",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 209,
+       "end": 221,
+       "text": "733022584152",
+       "labels": [
+        "INN"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-015",
+   "text": "пересылаю письмо:\n> От: Ирина Тимофеева <i.timofeeva@corp-mail.ru>\n> Кому: всем\n> Коллеги, пятничный созвон переносится на 16:00."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-015-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 24,
+       "end": 39,
+       "text": "Ирина Тимофеева",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-015-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 41,
+       "end": 65,
+       "text": "i.timofeeva@corp-mail.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-016",
+   "text": "Мой ИНН: 7707 0838 9345. Проверьте, пожалуйста, есть ли задолженность."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-016-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 9,
+       "end": 23,
+       "text": "7707 0838 9345",
+       "labels": [
+        "INN"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-017",
+   "text": "Номер карты 2202 2021 3344 55__ последние две не видно на фото, пришлю позже"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-017-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 12,
+       "end": 31,
+       "text": "2202 2021 3344 55__",
+       "labels": [
+        "CARD"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-018",
+   "text": "Привет, Саш! Это Лена из 5-го подъезда. Твоя посылка у меня, заходи в кв. 89 вечером."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-018-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 8,
+       "end": 11,
+       "text": "Саш",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-018-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 17,
+       "end": 21,
+       "text": "Лена",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-019",
+   "text": "Код ошибки 0x80070005, версия Windows 10.0.19045. Перезагрузка не помогла."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-020",
+   "text": "Дмитрий    Сергеевич (отчество в анкете написано отдельной строкой)"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-020-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 7,
+       "text": "Дмитрий",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-020-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 11,
+       "end": 20,
+       "text": "Сергеевич",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-021",
+   "text": "ФИО: ГРИГОРЬЕВ ИГОРЬ ИГОРЕВИЧ ДАТА РОЖДЕНИЯ: 03/04/1982 ТЕЛ: +7(912)111-22-33"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-021-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 5,
+       "end": 29,
+       "text": "ГРИГОРЬЕВ ИГОРЬ ИГОРЕВИЧ",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-021-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 55,
+       "text": "03/04/1982",
+       "labels": [
+        "BIRTHDATE"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-021-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 61,
+       "end": 77,
+       "text": "+7(912)111-22-33",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-022",
+   "text": "ул.Лесная,д.5,кв.10 — адрес без пробелов, так вбил в форму"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-022-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 3,
+       "end": 19,
+       "text": "Лесная,д.5,кв.10",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-023",
+   "text": "Беляева сдала отчёт, Беляев — нет. Это брат и сестра, не путайте."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-023-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 7,
+       "text": "Беляева",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-023-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 21,
+       "end": 27,
+       "text": "Беляев",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-024",
+   "text": "Жалоба на соседа из квартиры 47 (Хромов): третью ночь подряд громкая музыка. Я живу по адресу ул. Садовая, 18, кв. 51, Тихонова М."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-024-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 33,
+       "end": 39,
+       "text": "Хромов",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-024-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 94,
+       "end": 117,
+       "text": "ул. Садовая, 18, кв. 51",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-024-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 119,
+       "end": 130,
+       "text": "Тихонова М.",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-025",
+   "text": "Письмо от Абрамян Гаяне: «Здравствуйте, я хотела уточнить по заказу, номер 99812, доставка на Ереванскую ул., 3. Мой номер +374 91 223344.»"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-025-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 23,
+       "text": "Абрамян Гаяне",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-025-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 94,
+       "end": 111,
+       "text": "Ереванскую ул., 3",
+       "labels": [
+        "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-025-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 123,
+       "end": 137,
+       "text": "+374 91 223344",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-026",
+   "text": "Вот мой емейл: petrov(собака)yandex.ru"
+  }
+ },
+ {
+  "data": {
+   "id": "06_long_messy-027",
+   "text": "Позвоните мне на девятьсот шестнадцать 123 45 67"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-027-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 17,
+       "end": 48,
+       "text": "девятьсот шестнадцать 123 45 67",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-028",
+   "text": "Пароль от вайфая: Petrov1985! (не пишите это никому)"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-029",
+   "text": "@alex_k, @maria_v, @den4ik — жду вас сегодня в 20:00 в зуме"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-029-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 7,
+       "text": "@alex_k",
+       "labels": [
+        "NICK"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-029-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 9,
+       "end": 17,
+       "text": "@maria_v",
+       "labels": [
+        "NICK"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-029-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 19,
+       "end": 26,
+       "text": "@den4ik",
+       "labels": [
+        "NICK"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-030",
+   "text": "Выпуск 2008 года, 11 «А»"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-031",
+   "text": "В 2019 году я, Андрей Лаврентьев, переехал из Ставрополя в Москву и с тех пор снимаю квартиру у Людмилы Аркадьевны на Профсоюзной, 104."
+  }
+ },
+ {
+  "data": {
+   "id": "06_long_messy-032",
+   "text": "Спасибо, Ольга Николаевна! И отдельное спасибо вашему помощнику Артёму."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-032-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 9,
+       "end": 25,
+       "text": "Ольга Николаевна",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-032-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 64,
+       "end": 70,
+       "text": "Артёму",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-033",
+   "text": "Ребёнок: Петров Артём, 2 года 3 мес., вес 13 кг."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-033-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 9,
+       "end": 21,
+       "text": "Петров Артём",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-034",
+   "text": "Счёт 40817 810 5 0000 1234567 (так написано в договоре, с пробелами)"
+  }
+ },
+ {
+  "data": {
+   "id": "06_long_messy-035",
+   "text": "Пишу с чужой почты, моя a.vasileva@yandex.ru заблокирована. Васильева Анна"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-035-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 24,
+       "end": 44,
+       "text": "a.vasileva@yandex.ru",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-035-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 60,
+       "end": 74,
+       "text": "Васильева Анна",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-036",
+   "text": "Прошу связаться с моей мамой, Галиной Петровной, её номер 8-903-777-66-55."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-036-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 30,
+       "end": 47,
+       "text": "Галиной Петровной",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-036-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 58,
+       "end": 73,
+       "text": "8-903-777-66-55",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-037",
+   "text": "У нас в классе три Саши и две Насти, поэтому зовём по фамилиям."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-038",
+   "text": "Stepan Ivanov (Степан Иванов) — представитель компании в Санкт-Петербурге."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-038-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 13,
+       "text": "Stepan Ivanov",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-039",
+   "text": "Карта 2202202212345678 и ещё одна 4276 **** 9910, обе на имя Горелова."
+  }
+ },
+ {
+  "data": {
+   "id": "06_long_messy-040",
+   "text": "Ким, Цой и Ли — это фамилии, а не сокращения, не удаляйте их из списка."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-040-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 3,
+       "text": "Ким",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-040-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 5,
+       "end": 8,
+       "text": "Цой",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-040-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 11,
+       "end": 13,
+       "text": "Ли",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-041",
+   "text": "Александра уехала в Александров, вернётся в понедельник."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-041-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 10,
+       "text": "Александра",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-042",
+   "text": "Паспорт РФ 45-10-123456, выдан в 2010, код подразделения 770-001."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-042-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 11,
+       "end": 23,
+       "text": "45-10-123456",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-043",
+   "text": "Ахмед звонил с номера +7 928 *** 11 22 и просил передать Зауру, что всё готово."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-043-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 0,
+       "end": 5,
+       "text": "Ахмед",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-043-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 22,
+       "end": 38,
+       "text": "+7 928 *** 11 22",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-043-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 57,
+       "end": 62,
+       "text": "Зауру",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-044",
+   "text": "Бронь на имя KONSTANTIN MOROZOV, номер брони X7KQ2M, заезд 10.10.2026."
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-044-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 13,
+       "end": 31,
+       "text": "KONSTANTIN MOROZOV",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-045",
+   "text": "Контакт для связи: +7 (812) 407-15-15 (Анжела, администратор)"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-045-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 19,
+       "end": 37,
+       "text": "+7 (812) 407-15-15",
+       "labels": [
+        "PHONE"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-045-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 39,
+       "end": 45,
+       "text": "Анжела",
+       "labels": [
+        "PER"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-046",
+   "text": "отправил на vasyapupkin@gmail,com — ой опечатка, на vasyapupkin@gmail.com"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": [
+     {
+      "id": "06_long_messy-046-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 12,
+       "end": 33,
+       "text": "vasyapupkin@gmail,com",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-046-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 52,
+       "end": 73,
+       "text": "vasyapupkin@gmail.com",
+       "labels": [
+        "EMAIL"
+       ]
+      }
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "data": {
+   "id": "06_long_messy-047",
+   "text": "Ефремов! Срочно зайдите в кабинет 305."
+  }
+ },
+ {
+  "data": {
+   "id": "06_long_messy-048",
+   "text": "Всем спасибо, до встречи!"
+  },
+  "predictions": [
+   {
+    "model_version": "draft",
+    "result": []
+   }
+  ]
+ }
+]

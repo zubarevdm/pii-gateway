@@ -1,0 +1,16 @@
+<View>
+  <Labels name="label" toName="text">
+    <Label value="PER"/>
+    <Label value="NICK"/>
+    <Label value="INN"/>
+    <Label value="SNILS"/>
+    <Label value="PASSPORT"/>
+    <Label value="PHONE"/>
+    <Label value="EMAIL"/>
+    <Label value="ADDRESS"/>
+    <Label value="BIRTHDATE"/>
+    <Label value="CARD"/>
+    <Label value="ACCOUNT"/>
+  </Labels>
+  <Text name="text" value="$text"/>
+</View>
