@@ -16,6 +16,8 @@ class Label(StrEnum):
     BIRTHDATE = "BIRTHDATE"
     CARD = "CARD"            # номер банковской карты
     ACCOUNT = "ACCOUNT"      # расчётный/лицевой счёт
+    DOC_ID = "DOC_ID"        # полис ОМС/ОСАГО, госномер, ВУ, больничный
+    ORG_ID = "ORG_ID"        # реквизиты и контакты организаций; не ПД, отдельная политика в шлюзе
 
 
 class Span(BaseModel):

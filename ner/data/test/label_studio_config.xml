@@ -11,6 +11,8 @@
     <Label value="BIRTHDATE"/>
     <Label value="CARD"/>
     <Label value="ACCOUNT"/>
+    <Label value="DOC_ID"/>
+    <Label value="ORG_ID"/>
   </Labels>
   <Text name="text" value="$text"/>
 </View>

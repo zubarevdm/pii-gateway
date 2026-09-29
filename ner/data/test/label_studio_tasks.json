@@ -420,7 +420,36 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "01_support-014-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 57,
+       "end": 75,
+       "text": "buh@stroymir-nn.ru",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     },
+     {
+      "id": "01_support-014-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 99,
+       "end": 109,
+       "text": "5260271530",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -820,7 +849,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "01_support-031-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 23,
+       "end": 38,
+       "text": "8-800-555-35-35",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -914,7 +958,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "01_support-034-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 53,
+       "end": 63,
+       "text": "7801654320",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -1145,7 +1204,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "01_support-046-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 34,
+       "end": 59,
+       "text": "partners@delivery-club.ru",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -2572,7 +2646,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "03_official-003-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 104,
+       "end": 117,
+       "text": "hr@company.ru",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -2679,6 +2768,34 @@
        "text": "Санкт-Петербург, Гражданский пр., д. 22, кв. 301",
        "labels": [
         "ADDRESS"
+       ]
+      }
+     },
+     {
+      "id": "03_official-005-4",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 215,
+       "end": 225,
+       "text": "7814512396",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     },
+     {
+      "id": "03_official-005-5",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 232,
+       "end": 245,
+       "text": "1117847123456",
+       "labels": [
+        "ORG_ID"
        ]
       }
      }
@@ -4122,7 +4239,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "04_bank_med_gov-006-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 69,
+       "end": 85,
+       "text": "7751230891000452",
+       "labels": [
+        "DOC_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -4173,6 +4305,20 @@
        "text": "Елена Викторовна",
        "labels": [
         "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-008-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 99,
+       "end": 114,
+       "text": "8-800-700-11-22",
+       "labels": [
+        "ORG_ID"
        ]
       }
      }
@@ -4429,6 +4575,20 @@
        "text": "Гаврилова Кирилла",
        "labels": [
         "PER"
+       ]
+      }
+     },
+     {
+      "id": "04_bank_med_gov-016-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 90,
+       "end": 99,
+       "text": "А123ВС777",
+       "labels": [
+        "DOC_ID"
        ]
       }
      }
@@ -5072,6 +5232,20 @@
         "INN"
        ]
       }
+     },
+     {
+      "id": "04_bank_med_gov-038-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 95,
+       "end": 105,
+       "text": "7704123456",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
      }
     ]
    }
@@ -5620,7 +5794,50 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "05_hard_negatives-015-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 5,
+       "end": 18,
+       "text": "1027700132195",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     },
+     {
+      "id": "05_hard_negatives-015-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 24,
+       "end": 33,
+       "text": "773601001",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     },
+     {
+      "id": "05_hard_negatives-015-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 40,
+       "end": 48,
+       "text": "00032537",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -5656,7 +5873,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "05_hard_negatives-019-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 15,
+       "end": 32,
+       "text": "8 (800) 100-00-00",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -5668,7 +5900,36 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "05_hard_negatives-020-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 10,
+       "end": 27,
+       "text": "support@yandex.ru",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     },
+     {
+      "id": "05_hard_negatives-020-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 32,
+       "end": 52,
+       "text": "noreply@gosuslugi.ru",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -5806,7 +6067,22 @@
   "predictions": [
    {
     "model_version": "draft",
-    "result": []
+    "result": [
+     {
+      "id": "05_hard_negatives-032-0",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 43,
+       "end": 57,
+       "text": "@official_shop",
+       "labels": [
+        "ORG_ID"
+       ]
+      }
+     }
+    ]
    }
   ]
  },
@@ -6167,6 +6443,20 @@
        "start": 32,
        "end": 38,
        "text": "771236",
+       "labels": [
+        "PASSPORT"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-001-2",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 45,
+       "end": 51,
+       "text": "771263",
        "labels": [
         "PASSPORT"
        ]
@@ -7442,6 +7732,20 @@
        "start": 0,
        "end": 13,
        "text": "Stepan Ivanov",
+       "labels": [
+        "PER"
+       ]
+      }
+     },
+     {
+      "id": "06_long_messy-038-1",
+      "from_name": "label",
+      "to_name": "text",
+      "type": "labels",
+      "value": {
+       "start": 15,
+       "end": 28,
+       "text": "Степан Иванов",
        "labels": [
         "PER"
        ]

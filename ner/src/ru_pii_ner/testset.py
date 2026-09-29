@@ -20,7 +20,7 @@ from .schema import Example, Label, Span
 DRAFTS = Path("data/test/drafts")
 OUT = Path("data/test")
 BLIND_SIZE = 50
-_MARK = re.compile(r"\[([^\[\]|]+)\|([A-Z]+)\]")
+_MARK = re.compile(r"\[([^\[\]|]+)\|([A-Z_]+)\]")
 _PLACEHOLDERS = {
     "$INN12": fakes.inn12, "$INN10": fakes.inn10, "$SNILS": fakes.snils,
     "$CARD": fakes.card, "$ACCOUNT": fakes.account,

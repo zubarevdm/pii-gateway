@@ -115,6 +115,19 @@ def account(rng: random.Random) -> str:
     return "40817810" + "".join(map(str, _digits(rng, 12)))
 
 
+def oms(rng: random.Random) -> str:
+    return "".join(map(str, _digits(rng, 16)))
+
+
+_PLATE_LETTERS = "АВЕКМНОРСТУХ"  # буквы, совпадающие по написанию с латиницей
+
+
+def plate(rng: random.Random) -> str:
+    l = lambda: rng.choice(_PLATE_LETTERS)
+    region = rng.choice([77, 97, 99, 177, 197, 777, 50, 150, 78, 178, 16, 116, 66, 196])
+    return f"{l()}{rng.randint(1, 999):03d}{l()}{l()}{region}"
+
+
 def birthdate(rng: random.Random) -> str:
     y, m, d = rng.randint(1950, 2006), rng.randint(1, 12), rng.randint(1, 28)
     return rng.choice([

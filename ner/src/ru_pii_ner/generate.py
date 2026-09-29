@@ -16,7 +16,7 @@ from . import fakes
 from .schema import Example, Span
 
 _SLOT = re.compile(r"\{([A-Z0-9_]+)\}")
-_MASKABLE = {"INN", "SNILS", "PASSPORT", "PHONE", "CARD", "ACCOUNT"}
+_MASKABLE = {"INN", "SNILS", "PASSPORT", "PHONE", "CARD", "ACCOUNT", "DOC_ID"}
 MASK_RATE = 0.1
 
 TEMPLATES = [
@@ -48,8 +48,10 @@ TEMPLATES = [
     # банк, медицина, доставка
     "Клиент {PER}, {BIRTHDATE}, обратился с жалобой на блокировку карты {CARD}. Связаться: {PHONE}",
     "Запись к терапевту: пациент {PER}, дата рождения {BIRTHDATE}, полис оформлен {DATE}",
+    "Пациент {PER}, полис ОМС {OMS}. Направление на анализы действительно до {DATE}",
+    "Полис ОСАГО на автомобиль с госномером {PLATE}, страхователь {PER}, тел. {PHONE}",
     "Курьер не смог дозвониться до получателя. Адрес {ADDRESS}, получатель {FIRST}, телефон {PHONE}",
-    # без персональных данных: учат модель не срабатывать на похожее
+    # без персональных данных (кроме реквизитов организаций): учат модель не путать ПД с похожими строками
     "Горячая линия {ORG} работает круглосуточно: {HOTLINE}, почта {ORG_EMAIL}",
     "Реквизиты поставщика: {ORG}, ИНН {ORG_INN}, БИК {BIK}. Заказ {ORDER} от {DATE}.",
     "Филиал в городе {CITY} откроется {DATE}. Есть надежда, что сроки не сдвинутся.",
@@ -95,12 +97,14 @@ class _Context:
             "BIRTHDATE": lambda: (fakes.birthdate(r), "BIRTHDATE"),
             "CARD": lambda: (fakes.card(r), "CARD"),
             "ACCOUNT": lambda: (fakes.account(r), "ACCOUNT"),
-            # не персональные данные
+            "OMS": lambda: (fakes.oms(r), "DOC_ID"),
+            "PLATE": lambda: (fakes.plate(r), "DOC_ID"),
+            # реквизиты организаций: ORG_ID; справочные данные: без метки
             "ORG": lambda: (r.choice(_ORGS), None),
-            "ORG_INN": lambda: (fakes.inn10(r), None),
+            "ORG_INN": lambda: (fakes.inn10(r), "ORG_ID"),
             "ORG_EMAIL": lambda: (r.choice(["info", "support", "hr", "office"]) + "@"
-                                  + r.choice(["romashka.ru", "techservice.ru", "vostok-bank.ru"]), None),
-            "HOTLINE": lambda: (f"8-800-{r.randint(100, 999)}-{r.randint(10, 99)}-{r.randint(10, 99)}", None),
+                                  + r.choice(["romashka.ru", "techservice.ru", "vostok-bank.ru"]), "ORG_ID"),
+            "HOTLINE": lambda: (f"8-800-{r.randint(100, 999)}-{r.randint(10, 99)}-{r.randint(10, 99)}", "ORG_ID"),
             "BIK": lambda: (f"04{r.randint(4000000, 5999999)}", None),
             "ORDER": lambda: (f"№{r.randint(10**6, 10**8)}", None),
             "DATE": lambda: (f"{r.randint(1, 28):02d}.{r.randint(1, 12):02d}.2026", None),
