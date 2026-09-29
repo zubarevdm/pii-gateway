@@ -2,6 +2,8 @@
 
     python -m ru_pii_ner.evaluate gateway       # regex + Natasha из app/detectors
     python -m ru_pii_ner.evaluate gateway-regex # только regex-слой
+    python -m ru_pii_ner.evaluate model         # дообученная модель
+    python -m ru_pii_ner.evaluate regex+model   # regex шлюза + модель вместо Natasha
 
 Результат пишется в eval/baseline-<name>.json: с ним сравнивается любая новая
 модель. Метрики:
@@ -53,6 +55,22 @@ def gateway_predictor(with_ner: bool = True) -> Predictor:
     def predict(text: str) -> list[Span]:
         return [Span(start=e.start, end=e.end, label=_GATEWAY_MAP[e.type.value])
                 for e in pipeline.detect(text) if e.type.value in _GATEWAY_MAP and e.end > e.start]
+    return predict
+
+
+def model_predictor(path: Path) -> Predictor:
+    from .predict import NerModel
+    return NerModel(path)
+
+
+def combined_predictor(path: Path) -> Predictor:
+    """Схема шлюза с моделью вместо Natasha: regex с контрольными суммами важнее модели."""
+    regex, model = gateway_predictor(with_ner=False), model_predictor(path)
+
+    def predict(text: str) -> list[Span]:
+        kept = regex(text)
+        kept += [m for m in model(text) if not any(m.start < r.end and r.start < m.end for r in kept)]
+        return sorted(kept, key=lambda s: s.start)
     return predict
 
 
@@ -158,10 +176,17 @@ def print_report(r: dict) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("detector", choices=["gateway", "gateway-regex"])
+    ap.add_argument("detector", choices=["gateway", "gateway-regex", "model", "regex+model"])
+    ap.add_argument("--model", type=Path, default=Path("models/rubert-tiny2-pii"))
+    ap.add_argument("--name", help="имя в eval/baseline-<name>.json, по умолчанию = detector")
     args = ap.parse_args()
-    predict = gateway_predictor(with_ner=args.detector == "gateway")
-    print_report(evaluate(args.detector, predict))
+    predict = {
+        "gateway": lambda: gateway_predictor(with_ner=True),
+        "gateway-regex": lambda: gateway_predictor(with_ner=False),
+        "model": lambda: model_predictor(args.model),
+        "regex+model": lambda: combined_predictor(args.model),
+    }[args.detector]()
+    print_report(evaluate(args.name or args.detector, predict))
 
 
 if __name__ == "__main__":

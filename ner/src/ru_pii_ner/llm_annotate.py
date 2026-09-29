@@ -74,9 +74,10 @@ class GigaChat:
         self._token, self._expires = payload["access_token"], payload["expires_at"] / 1000
         return self._token
 
-    def complete(self, text: str) -> str:
-        body = {"model": self.model, "temperature": 0.000001, "max_tokens": 1500, "messages": [
-            {"role": "system", "content": SYSTEM}, {"role": "user", "content": text}]}
+    def complete(self, text: str, system: str | None = SYSTEM, max_tokens: int = 1500,
+                 temperature: float = 0.000001) -> str:
+        messages = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": text}]
+        body = {"model": self.model, "temperature": temperature, "max_tokens": max_tokens, "messages": messages}
         for attempt in range(4):
             r = self.http.post(API_URL, json=body, headers={"Authorization": f"Bearer {self._auth()}"})
             if r.status_code == 200:
