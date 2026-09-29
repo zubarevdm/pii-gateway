@@ -1,0 +1,297 @@
+{"id": "01_support-000", "spans": [{"start": 66, "end": 89, "label": "PER"}, {"start": 97, "end": 131, "label": "ADDRESS"}, {"start": 148, "end": 159, "label": "PHONE"}]}
+{"id": "01_support-001", "spans": [{"start": 68, "end": 76, "label": "PASSPORT"}, {"start": 91, "end": 96, "label": "PER"}]}
+{"id": "01_support-002", "spans": [{"start": 83, "end": 105, "label": "EMAIL"}, {"start": 122, "end": 129, "label": "EMAIL"}]}
+{"id": "01_support-003", "spans": [{"start": 27, "end": 46, "label": "CARD"}, {"start": 55, "end": 57, "label": "PHONE"}, {"start": 58, "end": 61, "label": "CARD"}]}
+{"id": "01_support-004", "spans": [{"start": 7, "end": 13, "label": "PER"}]}
+{"id": "01_support-005", "spans": [{"start": 98, "end": 114, "label": "PHONE"}]}
+{"id": "01_support-006", "spans": [{"start": 45, "end": 60, "label": "ADDRESS"}, {"start": 62, "end": 64, "label": "ADDRESS"}, {"start": 121, "end": 132, "label": "PER"}]}
+{"id": "01_support-007", "spans": [{"start": 28, "end": 34, "label": "PER"}, {"start": 36, "end": 43, "label": "PER"}, {"start": 49, "end": 56, "label": "PASSPORT"}, {"start": 69, "end": 95, "label": "PER"}]}
+{"id": "01_support-008", "spans": [{"start": 25, "end": 43, "label": "EMAIL"}]}
+{"id": "01_support-009", "spans": [{"start": 13, "end": 21, "label": "PER"}, {"start": 89, "end": 106, "label": "PHONE"}, {"start": 113, "end": 115, "label": "PHONE"}, {"start": 116, "end": 118, "label": "PHONE"}]}
+{"id": "01_support-010", "spans": [{"start": 47, "end": 79, "label": "PER"}, {"start": 87, "end": 99, "label": "PHONE"}]}
+{"id": "01_support-011", "spans": [{"start": 114, "end": 119, "label": "PHONE"}]}
+{"id": "01_support-012", "spans": [{"start": 50, "end": 58, "label": "PER"}]}
+{"id": "01_support-013", "spans": [{"start": 48, "end": 50, "label": "PASSPORT"}, {"start": 50, "end": 55, "label": "SNILS"}, {"start": 61, "end": 77, "label": "PER"}, {"start": 86, "end": 89, "label": "PHONE"}]}
+{"id": "01_support-014", "spans": [{"start": 57, "end": 75, "label": "EMAIL"}, {"start": 99, "end": 109, "label": "INN"}]}
+{"id": "01_support-015", "spans": [{"start": 10, "end": 18, "label": "PER"}, {"start": 24, "end": 30, "label": "BIRTHDATE"}]}
+{"id": "01_support-016", "spans": [{"start": 40, "end": 59, "label": "CARD"}, {"start": 71, "end": 77, "label": "DOC_ID"}, {"start": 78, "end": 86, "label": "NICK"}]}
+{"id": "01_support-017", "spans": [{"start": 43, "end": 67, "label": "EMAIL"}]}
+{"id": "01_support-018", "spans": [{"start": 11, "end": 16, "label": "PER"}, {"start": 18, "end": 56, "label": "ADDRESS"}, {"start": 89, "end": 107, "label": "PHONE"}]}
+{"id": "01_support-019", "spans": []}
+{"id": "01_support-020", "spans": [{"start": 14, "end": 30, "label": "PER"}]}
+{"id": "01_support-021", "spans": [{"start": 49, "end": 56, "label": "PER"}, {"start": 57, "end": 74, "label": "EMAIL"}, {"start": 82, "end": 101, "label": "EMAIL"}]}
+{"id": "01_support-022", "spans": [{"start": 31, "end": 38, "label": "PER"}, {"start": 68, "end": 79, "label": "BIRTHDATE"}]}
+{"id": "01_support-023", "spans": [{"start": 46, "end": 56, "label": "PASSPORT"}]}
+{"id": "01_support-024", "spans": [{"start": 56, "end": 61, "label": "ADDRESS"}, {"start": 82, "end": 100, "label": "ADDRESS"}, {"start": 114, "end": 126, "label": "PER"}]}
+{"id": "01_support-025", "spans": [{"start": 23, "end": 35, "label": "PHONE"}, {"start": 35, "end": 38, "label": "SNILS"}]}
+{"id": "01_support-026", "spans": [{"start": 67, "end": 80, "label": "PER"}]}
+{"id": "01_support-027", "spans": []}
+{"id": "01_support-028", "spans": [{"start": 33, "end": 46, "label": "ADDRESS"}, {"start": 57, "end": 63, "label": "PER"}]}
+{"id": "01_support-029", "spans": [{"start": 21, "end": 30, "label": "EMAIL"}, {"start": 31, "end": 44, "label": "EMAIL"}, {"start": 44, "end": 47, "label": "NICK"}]}
+{"id": "01_support-030", "spans": [{"start": 44, "end": 68, "label": "PER"}, {"start": 84, "end": 94, "label": "BIRTHDATE"}]}
+{"id": "01_support-031", "spans": [{"start": 23, "end": 38, "label": "ORG_ID"}]}
+{"id": "01_support-032", "spans": [{"start": 49, "end": 65, "label": "PHONE"}, {"start": 87, "end": 102, "label": "PER"}]}
+{"id": "01_support-033", "spans": [{"start": 54, "end": 75, "label": "EMAIL"}, {"start": 89, "end": 100, "label": "PHONE"}]}
+{"id": "01_support-034", "spans": [{"start": 40, "end": 46, "label": "ORG_ID"}, {"start": 53, "end": 63, "label": "ORG_ID"}]}
+{"id": "01_support-035", "spans": [{"start": 11, "end": 14, "label": "ADDRESS"}, {"start": 15, "end": 22, "label": "PER"}]}
+{"id": "01_support-036", "spans": [{"start": 38, "end": 51, "label": "PER"}]}
+{"id": "01_support-037", "spans": []}
+{"id": "01_support-038", "spans": [{"start": 24, "end": 40, "label": "PER"}, {"start": 91, "end": 95, "label": "PHONE"}]}
+{"id": "01_support-039", "spans": [{"start": 38, "end": 51, "label": "PER"}]}
+{"id": "01_support-040", "spans": [{"start": 50, "end": 63, "label": "ADDRESS"}, {"start": 83, "end": 132, "label": "ADDRESS"}]}
+{"id": "01_support-041", "spans": [{"start": 71, "end": 75, "label": "PER"}, {"start": 77, "end": 91, "label": "PER"}]}
+{"id": "01_support-042", "spans": [{"start": 62, "end": 76, "label": "PHONE"}]}
+{"id": "01_support-043", "spans": [{"start": 48, "end": 68, "label": "ACCOUNT"}]}
+{"id": "01_support-044", "spans": []}
+{"id": "01_support-045", "spans": [{"start": 51, "end": 85, "label": "ADDRESS"}]}
+{"id": "01_support-046", "spans": [{"start": 34, "end": 59, "label": "EMAIL"}]}
+{"id": "01_support-047", "spans": [{"start": 80, "end": 98, "label": "PHONE"}]}
+{"id": "01_support-048", "spans": [{"start": 21, "end": 33, "label": "PER"}, {"start": 50, "end": 57, "label": "PER"}, {"start": 58, "end": 59, "label": "DOC_ID"}]}
+{"id": "02_chats-000", "spans": [{"start": 0, "end": 5, "label": "PER"}, {"start": 19, "end": 25, "label": "PER"}]}
+{"id": "02_chats-001", "spans": [{"start": 6, "end": 22, "label": "PHONE"}]}
+{"id": "02_chats-002", "spans": [{"start": 8, "end": 12, "label": "PER"}, {"start": 46, "end": 59, "label": "EMAIL"}]}
+{"id": "02_chats-003", "spans": [{"start": 33, "end": 38, "label": "ADDRESS"}, {"start": 39, "end": 50, "label": "PER"}, {"start": 72, "end": 98, "label": "PER"}]}
+{"id": "02_chats-004", "spans": [{"start": 26, "end": 41, "label": "PER"}, {"start": 57, "end": 77, "label": "PHONE"}]}
+{"id": "02_chats-005", "spans": [{"start": 0, "end": 8, "label": "EMAIL"}, {"start": 8, "end": 12, "label": "NICK"}]}
+{"id": "02_chats-006", "spans": [{"start": 13, "end": 22, "label": "PER"}]}
+{"id": "02_chats-007", "spans": []}
+{"id": "02_chats-008", "spans": [{"start": 58, "end": 70, "label": "INN"}]}
+{"id": "02_chats-009", "spans": [{"start": 0, "end": 5, "label": "PER"}]}
+{"id": "02_chats-010", "spans": [{"start": 27, "end": 30, "label": "PER"}, {"start": 52, "end": 67, "label": "EMAIL"}]}
+{"id": "02_chats-011", "spans": [{"start": 41, "end": 45, "label": "ADDRESS"}, {"start": 68, "end": 84, "label": "PER"}]}
+{"id": "02_chats-012", "spans": [{"start": 34, "end": 53, "label": "CARD"}, {"start": 66, "end": 85, "label": "PER"}]}
+{"id": "02_chats-013", "spans": [{"start": 22, "end": 37, "label": "PHONE"}]}
+{"id": "02_chats-014", "spans": [{"start": 23, "end": 36, "label": "PER"}, {"start": 40, "end": 44, "label": "PER"}, {"start": 55, "end": 59, "label": "PER"}]}
+{"id": "02_chats-015", "spans": []}
+{"id": "02_chats-016", "spans": []}
+{"id": "02_chats-017", "spans": [{"start": 17, "end": 20, "label": "PER"}]}
+{"id": "02_chats-018", "spans": [{"start": 0, "end": 4, "label": "PER"}, {"start": 14, "end": 53, "label": "ADDRESS"}, {"start": 70, "end": 76, "label": "PER"}, {"start": 79, "end": 85, "label": "PER"}]}
+{"id": "02_chats-019", "spans": []}
+{"id": "02_chats-020", "spans": [{"start": 9, "end": 25, "label": "EMAIL"}]}
+{"id": "02_chats-021", "spans": [{"start": 39, "end": 46, "label": "EMAIL"}, {"start": 46, "end": 47, "label": "PER"}]}
+{"id": "02_chats-022", "spans": [{"start": 18, "end": 36, "label": "PHONE"}]}
+{"id": "02_chats-023", "spans": [{"start": 40, "end": 47, "label": "PER"}]}
+{"id": "02_chats-024", "spans": [{"start": 45, "end": 53, "label": "PER"}, {"start": 73, "end": 84, "label": "PHONE"}]}
+{"id": "02_chats-025", "spans": [{"start": 17, "end": 26, "label": "EMAIL"}, {"start": 26, "end": 31, "label": "NICK"}]}
+{"id": "02_chats-026", "spans": [{"start": 39, "end": 42, "label": "PER"}, {"start": 45, "end": 49, "label": "PER"}]}
+{"id": "02_chats-027", "spans": [{"start": 28, "end": 36, "label": "BIRTHDATE"}, {"start": 66, "end": 91, "label": "ADDRESS"}]}
+{"id": "02_chats-028", "spans": [{"start": 0, "end": 16, "label": "PER"}]}
+{"id": "02_chats-029", "spans": [{"start": 0, "end": 4, "label": "PER"}, {"start": 49, "end": 55, "label": "PER"}]}
+{"id": "02_chats-030", "spans": []}
+{"id": "02_chats-031", "spans": [{"start": 0, "end": 12, "label": "PER"}]}
+{"id": "02_chats-032", "spans": [{"start": 0, "end": 5, "label": "PER"}]}
+{"id": "02_chats-033", "spans": [{"start": 0, "end": 20, "label": "EMAIL"}]}
+{"id": "02_chats-034", "spans": []}
+{"id": "02_chats-035", "spans": [{"start": 0, "end": 5, "label": "PER"}]}
+{"id": "02_chats-036", "spans": [{"start": 13, "end": 15, "label": "BIRTHDATE"}, {"start": 17, "end": 22, "label": "BIRTHDATE"}, {"start": 38, "end": 44, "label": "PER"}, {"start": 45, "end": 57, "label": "PHONE"}, {"start": 57, "end": 68, "label": "ADDRESS"}]}
+{"id": "02_chats-037", "spans": [{"start": 39, "end": 51, "label": "PER"}]}
+{"id": "02_chats-038", "spans": [{"start": 20, "end": 44, "label": "PER"}, {"start": 46, "end": 52, "label": "BIRTHDATE"}, {"start": 70, "end": 81, "label": "ADDRESS"}, {"start": 82, "end": 88, "label": "PER"}, {"start": 89, "end": 91, "label": "ADDRESS"}, {"start": 115, "end": 130, "label": "PHONE"}]}
+{"id": "02_chats-039", "spans": [{"start": 31, "end": 50, "label": "EMAIL"}]}
+{"id": "02_chats-040", "spans": [{"start": 0, "end": 4, "label": "PER"}, {"start": 6, "end": 10, "label": "PER"}]}
+{"id": "02_chats-041", "spans": [{"start": 0, "end": 4, "label": "PER"}]}
+{"id": "02_chats-042", "spans": [{"start": 0, "end": 18, "label": "EMAIL"}]}
+{"id": "02_chats-043", "spans": [{"start": 0, "end": 18, "label": "PER"}]}
+{"id": "02_chats-044", "spans": [{"start": 31, "end": 35, "label": "PER"}]}
+{"id": "02_chats-045", "spans": [{"start": 19, "end": 26, "label": "PER"}, {"start": 29, "end": 37, "label": "PER"}]}
+{"id": "02_chats-046", "spans": [{"start": 27, "end": 28, "label": "ADDRESS"}, {"start": 34, "end": 48, "label": "PER"}, {"start": 59, "end": 62, "label": "ADDRESS"}]}
+{"id": "02_chats-047", "spans": [{"start": 17, "end": 24, "label": "PER"}, {"start": 91, "end": 96, "label": "PHONE"}, {"start": 97, "end": 103, "label": "PASSPORT"}]}
+{"id": "02_chats-048", "spans": [{"start": 0, "end": 4, "label": "PER"}, {"start": 5, "end": 9, "label": "PER"}]}
+{"id": "02_chats-049", "spans": [{"start": 12, "end": 18, "label": "PER"}, {"start": 45, "end": 61, "label": "PHONE"}]}
+{"id": "03_official-000", "spans": [{"start": 19, "end": 23, "label": "DOC_ID"}, {"start": 27, "end": 51, "label": "PER"}, {"start": 76, "end": 111, "label": "ADDRESS"}, {"start": 117, "end": 134, "label": "PHONE"}, {"start": 164, "end": 190, "label": "PER"}, {"start": 192, "end": 205, "label": "BIRTHDATE"}, {"start": 205, "end": 207, "label": "ADDRESS"}, {"start": 211, "end": 212, "label": "ADDRESS"}, {"start": 212, "end": 214, "label": "PHONE"}, {"start": 215, "end": 220, "label": "ADDRESS"}]}
+{"id": "03_official-001", "spans": [{"start": 13, "end": 14, "label": "PER"}, {"start": 16, "end": 40, "label": "PER"}, {"start": 50, "end": 61, "label": "PASSPORT"}, {"start": 86, "end": 96, "label": "ADDRESS"}, {"start": 97, "end": 104, "label": "PER"}, {"start": 105, "end": 115, "label": "BIRTHDATE"}, {"start": 125, "end": 152, "label": "PER"}]}
+{"id": "03_official-002", "spans": [{"start": 37, "end": 65, "label": "PER"}]}
+{"id": "03_official-003", "spans": [{"start": 21, "end": 22, "label": "BIRTHDATE"}, {"start": 104, "end": 106, "label": "ORG_ID"}, {"start": 107, "end": 114, "label": "ORG_ID"}, {"start": 114, "end": 117, "label": "EMAIL"}, {"start": 122, "end": 128, "label": "ADDRESS"}]}
+{"id": "03_official-004", "spans": [{"start": 13, "end": 40, "label": "PER"}, {"start": 42, "end": 59, "label": "BIRTHDATE"}]}
+{"id": "03_official-005", "spans": [{"start": 39, "end": 65, "label": "PER"}, {"start": 81, "end": 85, "label": "PASSPORT"}, {"start": 92, "end": 98, "label": "PASSPORT"}, {"start": 127, "end": 175, "label": "ADDRESS"}, {"start": 215, "end": 225, "label": "INN"}, {"start": 232, "end": 245, "label": "INN"}]}
+{"id": "03_official-006", "spans": [{"start": 67, "end": 79, "label": "INN"}, {"start": 87, "end": 94, "label": "SNILS"}, {"start": 95, "end": 101, "label": "SNILS"}, {"start": 103, "end": 117, "label": "PER"}]}
+{"id": "03_official-007", "spans": [{"start": 0, "end": 17, "label": "PER"}, {"start": 19, "end": 26, "label": "BIRTHDATE"}]}
+{"id": "03_official-008", "spans": [{"start": 7, "end": 17, "label": "PER"}, {"start": 28, "end": 48, "label": "EMAIL"}, {"start": 50, "end": 68, "label": "PHONE"}, {"start": 79, "end": 86, "label": "EMAIL"}, {"start": 93, "end": 99, "label": "EMAIL"}, {"start": 113, "end": 118, "label": "BIRTHDATE"}]}
+{"id": "03_official-009", "spans": [{"start": 18, "end": 24, "label": "PER"}, {"start": 66, "end": 79, "label": "PER"}]}
+{"id": "03_official-010", "spans": [{"start": 46, "end": 63, "label": "ADDRESS"}, {"start": 87, "end": 101, "label": "PER"}, {"start": 102, "end": 109, "label": "ADDRESS"}, {"start": 122, "end": 134, "label": "PER"}, {"start": 135, "end": 143, "label": "ADDRESS"}]}
+{"id": "03_official-011", "spans": [{"start": 88, "end": 90, "label": "BIRTHDATE"}, {"start": 97, "end": 121, "label": "PER"}]}
+{"id": "03_official-012", "spans": [{"start": 70, "end": 96, "label": "PER"}]}
+{"id": "03_official-013", "spans": [{"start": 44, "end": 46, "label": "DOC_ID"}]}
+{"id": "03_official-014", "spans": [{"start": 3, "end": 31, "label": "PER"}, {"start": 36, "end": 48, "label": "INN"}, {"start": 53, "end": 73, "label": "ACCOUNT"}]}
+{"id": "03_official-015", "spans": [{"start": 41, "end": 67, "label": "PER"}]}
+{"id": "03_official-016", "spans": [{"start": 15, "end": 32, "label": "PER"}]}
+{"id": "03_official-017", "spans": [{"start": 10, "end": 27, "label": "PER"}, {"start": 97, "end": 104, "label": "BIRTHDATE"}, {"start": 107, "end": 109, "label": "BIRTHDATE"}, {"start": 110, "end": 112, "label": "BIRTHDATE"}]}
+{"id": "03_official-018", "spans": [{"start": 42, "end": 43, "label": "PER"}, {"start": 45, "end": 71, "label": "PER"}, {"start": 73, "end": 86, "label": "BIRTHDATE"}, {"start": 98, "end": 110, "label": "PASSPORT"}]}
+{"id": "03_official-019", "spans": [{"start": 43, "end": 62, "label": "BIRTHDATE"}, {"start": 63, "end": 68, "label": "PER"}]}
+{"id": "03_official-020", "spans": [{"start": 42, "end": 52, "label": "ORG_ID"}, {"start": 58, "end": 67, "label": "ORG_ID"}, {"start": 73, "end": 93, "label": "ACCOUNT"}]}
+{"id": "03_official-021", "spans": [{"start": 39, "end": 80, "label": "ADDRESS"}, {"start": 91, "end": 112, "label": "PER"}, {"start": 114, "end": 129, "label": "PER"}]}
+{"id": "03_official-022", "spans": [{"start": 66, "end": 72, "label": "PER"}, {"start": 76, "end": 79, "label": "DOC_ID"}]}
+{"id": "03_official-023", "spans": []}
+{"id": "03_official-024", "spans": [{"start": 18, "end": 23, "label": "PER"}, {"start": 25, "end": 49, "label": "PER"}, {"start": 51, "end": 58, "label": "BIRTHDATE"}, {"start": 69, "end": 98, "label": "ADDRESS"}, {"start": 109, "end": 134, "label": "PER"}]}
+{"id": "03_official-025", "spans": [{"start": 19, "end": 32, "label": "PER"}, {"start": 42, "end": 53, "label": "PASSPORT"}, {"start": 66, "end": 74, "label": "PER"}]}
+{"id": "03_official-026", "spans": [{"start": 23, "end": 38, "label": "PER"}]}
+{"id": "03_official-027", "spans": [{"start": 10, "end": 29, "label": "PER"}, {"start": 45, "end": 61, "label": "BIRTHDATE"}, {"start": 75, "end": 78, "label": "ADDRESS"}, {"start": 90, "end": 102, "label": "ADDRESS"}]}
+{"id": "03_official-028", "spans": [{"start": 50, "end": 59, "label": "PER"}, {"start": 66, "end": 72, "label": "PASSPORT"}, {"start": 74, "end": 83, "label": "PER"}]}
+{"id": "03_official-029", "spans": [{"start": 78, "end": 81, "label": "BIRTHDATE"}]}
+{"id": "03_official-030", "spans": [{"start": 59, "end": 63, "label": "PER"}, {"start": 64, "end": 77, "label": "ADDRESS"}, {"start": 77, "end": 100, "label": "EMAIL"}, {"start": 102, "end": 122, "label": "PHONE"}, {"start": 124, "end": 127, "label": "PHONE"}]}
+{"id": "03_official-031", "spans": [{"start": 0, "end": 6, "label": "PER"}, {"start": 8, "end": 36, "label": "PER"}, {"start": 46, "end": 57, "label": "PASSPORT"}, {"start": 65, "end": 72, "label": "SNILS"}, {"start": 72, "end": 79, "label": "PHONE"}]}
+{"id": "03_official-032", "spans": [{"start": 38, "end": 52, "label": "SNILS"}]}
+{"id": "03_official-033", "spans": [{"start": 83, "end": 100, "label": "PER"}]}
+{"id": "03_official-034", "spans": [{"start": 91, "end": 93, "label": "BIRTHDATE"}]}
+{"id": "03_official-035", "spans": [{"start": 55, "end": 75, "label": "ACCOUNT"}, {"start": 106, "end": 115, "label": "PER"}]}
+{"id": "03_official-036", "spans": [{"start": 28, "end": 38, "label": "PER"}, {"start": 40, "end": 49, "label": "PER"}, {"start": 51, "end": 63, "label": "PER"}, {"start": 65, "end": 71, "label": "PER"}]}
+{"id": "03_official-037", "spans": [{"start": 58, "end": 73, "label": "ADDRESS"}, {"start": 74, "end": 89, "label": "PER"}, {"start": 96, "end": 114, "label": "PHONE"}]}
+{"id": "03_official-038", "spans": []}
+{"id": "03_official-039", "spans": [{"start": 25, "end": 35, "label": "INN"}, {"start": 93, "end": 100, "label": "PER"}]}
+{"id": "03_official-040", "spans": []}
+{"id": "03_official-041", "spans": [{"start": 10, "end": 26, "label": "PER"}, {"start": 84, "end": 135, "label": "ADDRESS"}]}
+{"id": "03_official-042", "spans": [{"start": 32, "end": 34, "label": "PER"}, {"start": 50, "end": 61, "label": "PER"}, {"start": 67, "end": 73, "label": "PER"}]}
+{"id": "03_official-043", "spans": [{"start": 24, "end": 42, "label": "PER"}, {"start": 72, "end": 78, "label": "BIRTHDATE"}, {"start": 107, "end": 122, "label": "PER"}, {"start": 122, "end": 125, "label": "ADDRESS"}, {"start": 125, "end": 147, "label": "EMAIL"}]}
+{"id": "03_official-044", "spans": [{"start": 17, "end": 37, "label": "ACCOUNT"}, {"start": 50, "end": 53, "label": "BIRTHDATE"}, {"start": 81, "end": 103, "label": "PER"}]}
+{"id": "03_official-045", "spans": []}
+{"id": "03_official-046", "spans": [{"start": 10, "end": 24, "label": "PER"}, {"start": 66, "end": 70, "label": "PASSPORT"}]}
+{"id": "03_official-047", "spans": [{"start": 10, "end": 24, "label": "PER"}, {"start": 32, "end": 46, "label": "SNILS"}]}
+{"id": "03_official-048", "spans": [{"start": 28, "end": 30, "label": "BIRTHDATE"}, {"start": 30, "end": 33, "label": "PHONE"}, {"start": 34, "end": 42, "label": "PER"}, {"start": 44, "end": 45, "label": "BIRTHDATE"}, {"start": 46, "end": 48, "label": "PHONE"}, {"start": 49, "end": 88, "label": "ADDRESS"}]}
+{"id": "04_bank_med_gov-000", "spans": [{"start": 37, "end": 42, "label": "DOC_ID"}, {"start": 71, "end": 76, "label": "PHONE"}, {"start": 93, "end": 95, "label": "PHONE"}, {"start": 96, "end": 106, "label": "ADDRESS"}]}
+{"id": "04_bank_med_gov-001", "spans": [{"start": 19, "end": 29, "label": "PER"}, {"start": 39, "end": 55, "label": "PHONE"}]}
+{"id": "04_bank_med_gov-002", "spans": [{"start": 18, "end": 38, "label": "PER"}, {"start": 40, "end": 50, "label": "BIRTHDATE"}, {"start": 60, "end": 71, "label": "PASSPORT"}, {"start": 79, "end": 82, "label": "PASSPORT"}, {"start": 100, "end": 104, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-003", "spans": [{"start": 24, "end": 27, "label": "PHONE"}, {"start": 28, "end": 40, "label": "SNILS"}]}
+{"id": "04_bank_med_gov-004", "spans": [{"start": 9, "end": 34, "label": "PER"}, {"start": 36, "end": 50, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-005", "spans": [{"start": 35, "end": 48, "label": "PER"}, {"start": 63, "end": 68, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-006", "spans": [{"start": 69, "end": 85, "label": "DOC_ID"}]}
+{"id": "04_bank_med_gov-007", "spans": [{"start": 35, "end": 45, "label": "PER"}, {"start": 47, "end": 53, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-008", "spans": [{"start": 10, "end": 26, "label": "PER"}, {"start": 71, "end": 73, "label": "BIRTHDATE"}, {"start": 74, "end": 76, "label": "BIRTHDATE"}, {"start": 99, "end": 114, "label": "ORG_ID"}]}
+{"id": "04_bank_med_gov-009", "spans": [{"start": 58, "end": 71, "label": "PER"}, {"start": 79, "end": 82, "label": "SNILS"}, {"start": 82, "end": 93, "label": "PHONE"}]}
+{"id": "04_bank_med_gov-010", "spans": [{"start": 26, "end": 53, "label": "PER"}, {"start": 59, "end": 71, "label": "INN"}, {"start": 143, "end": 181, "label": "ADDRESS"}]}
+{"id": "04_bank_med_gov-011", "spans": []}
+{"id": "04_bank_med_gov-012", "spans": [{"start": 28, "end": 39, "label": "PER"}]}
+{"id": "04_bank_med_gov-013", "spans": [{"start": 55, "end": 71, "label": "PHONE"}, {"start": 81, "end": 89, "label": "PHONE"}]}
+{"id": "04_bank_med_gov-014", "spans": []}
+{"id": "04_bank_med_gov-015", "spans": [{"start": 12, "end": 36, "label": "PER"}, {"start": 50, "end": 70, "label": "ACCOUNT"}]}
+{"id": "04_bank_med_gov-016", "spans": [{"start": 34, "end": 51, "label": "PER"}, {"start": 64, "end": 71, "label": "ADDRESS"}, {"start": 72, "end": 79, "label": "DOC_ID"}, {"start": 90, "end": 99, "label": "DOC_ID"}]}
+{"id": "04_bank_med_gov-017", "spans": [{"start": 22, "end": 24, "label": "BIRTHDATE"}, {"start": 49, "end": 60, "label": "PER"}, {"start": 76, "end": 86, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-018", "spans": [{"start": 21, "end": 29, "label": "PER"}, {"start": 45, "end": 52, "label": "PER"}, {"start": 53, "end": 57, "label": "PER"}, {"start": 60, "end": 73, "label": "PER"}]}
+{"id": "04_bank_med_gov-019", "spans": [{"start": 48, "end": 76, "label": "PER"}, {"start": 90, "end": 109, "label": "ADDRESS"}]}
+{"id": "04_bank_med_gov-020", "spans": [{"start": 51, "end": 106, "label": "ADDRESS"}, {"start": 127, "end": 154, "label": "PER"}]}
+{"id": "04_bank_med_gov-021", "spans": [{"start": 32, "end": 35, "label": "DOC_ID"}, {"start": 36, "end": 39, "label": "SNILS"}]}
+{"id": "04_bank_med_gov-022", "spans": [{"start": 48, "end": 67, "label": "CARD"}]}
+{"id": "04_bank_med_gov-023", "spans": [{"start": 42, "end": 59, "label": "PER"}, {"start": 70, "end": 85, "label": "PER"}, {"start": 87, "end": 97, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-024", "spans": [{"start": 61, "end": 81, "label": "PASSPORT"}]}
+{"id": "04_bank_med_gov-025", "spans": [{"start": 10, "end": 25, "label": "PER"}]}
+{"id": "04_bank_med_gov-026", "spans": [{"start": 19, "end": 23, "label": "PASSPORT"}, {"start": 25, "end": 31, "label": "PER"}]}
+{"id": "04_bank_med_gov-027", "spans": [{"start": 6, "end": 25, "label": "CARD"}, {"start": 33, "end": 39, "label": "CARD"}, {"start": 40, "end": 48, "label": "NICK"}]}
+{"id": "04_bank_med_gov-028", "spans": [{"start": 25, "end": 37, "label": "PASSPORT"}]}
+{"id": "04_bank_med_gov-029", "spans": [{"start": 20, "end": 26, "label": "PER"}, {"start": 66, "end": 69, "label": "PER"}, {"start": 80, "end": 95, "label": "PER"}, {"start": 97, "end": 115, "label": "PHONE"}]}
+{"id": "04_bank_med_gov-030", "spans": [{"start": 64, "end": 70, "label": "BIRTHDATE"}, {"start": 82, "end": 93, "label": "PER"}, {"start": 94, "end": 107, "label": "PER"}]}
+{"id": "04_bank_med_gov-031", "spans": [{"start": 34, "end": 49, "label": "PER"}, {"start": 51, "end": 61, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-032", "spans": [{"start": 61, "end": 72, "label": "SNILS"}, {"start": 78, "end": 104, "label": "PER"}]}
+{"id": "04_bank_med_gov-033", "spans": []}
+{"id": "04_bank_med_gov-034", "spans": [{"start": 20, "end": 27, "label": "PASSPORT"}, {"start": 39, "end": 60, "label": "PER"}, {"start": 66, "end": 78, "label": "INN"}, {"start": 88, "end": 103, "label": "PHONE"}]}
+{"id": "04_bank_med_gov-035", "spans": [{"start": 46, "end": 66, "label": "ADDRESS"}, {"start": 75, "end": 78, "label": "ADDRESS"}]}
+{"id": "04_bank_med_gov-036", "spans": [{"start": 22, "end": 26, "label": "CARD"}]}
+{"id": "04_bank_med_gov-037", "spans": [{"start": 39, "end": 51, "label": "PASSPORT"}]}
+{"id": "04_bank_med_gov-038", "spans": [{"start": 20, "end": 42, "label": "PER"}, {"start": 48, "end": 60, "label": "INN"}, {"start": 95, "end": 105, "label": "INN"}]}
+{"id": "04_bank_med_gov-039", "spans": [{"start": 8, "end": 19, "label": "PASSPORT"}]}
+{"id": "04_bank_med_gov-040", "spans": [{"start": 75, "end": 91, "label": "EMAIL"}]}
+{"id": "04_bank_med_gov-041", "spans": [{"start": 50, "end": 69, "label": "CARD"}]}
+{"id": "04_bank_med_gov-042", "spans": []}
+{"id": "04_bank_med_gov-043", "spans": [{"start": 10, "end": 25, "label": "PER"}, {"start": 27, "end": 43, "label": "PHONE"}, {"start": 54, "end": 61, "label": "PER"}, {"start": 62, "end": 73, "label": "ADDRESS"}, {"start": 74, "end": 78, "label": "ADDRESS"}]}
+{"id": "04_bank_med_gov-044", "spans": [{"start": 53, "end": 67, "label": "PER"}, {"start": 69, "end": 75, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-045", "spans": []}
+{"id": "04_bank_med_gov-046", "spans": [{"start": 47, "end": 52, "label": "CARD"}, {"start": 63, "end": 65, "label": "PASSPORT"}]}
+{"id": "04_bank_med_gov-047", "spans": [{"start": 69, "end": 89, "label": "ACCOUNT"}, {"start": 121, "end": 137, "label": "PER"}]}
+{"id": "04_bank_med_gov-048", "spans": [{"start": 95, "end": 105, "label": "BIRTHDATE"}]}
+{"id": "04_bank_med_gov-049", "spans": [{"start": 33, "end": 47, "label": "ADDRESS"}]}
+{"id": "05_hard_negatives-000", "spans": [{"start": 0, "end": 4, "label": "PER"}, {"start": 6, "end": 13, "label": "PER"}, {"start": 15, "end": 21, "label": "PER"}, {"start": 32, "end": 37, "label": "PER"}, {"start": 64, "end": 75, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-001", "spans": []}
+{"id": "05_hard_negatives-002", "spans": []}
+{"id": "05_hard_negatives-003", "spans": []}
+{"id": "05_hard_negatives-004", "spans": [{"start": 7, "end": 13, "label": "PER"}]}
+{"id": "05_hard_negatives-005", "spans": [{"start": 0, "end": 14, "label": "PER"}]}
+{"id": "05_hard_negatives-006", "spans": [{"start": 0, "end": 5, "label": "PER"}, {"start": 18, "end": 26, "label": "PER"}]}
+{"id": "05_hard_negatives-007", "spans": [{"start": 0, "end": 11, "label": "PER"}, {"start": 22, "end": 35, "label": "PER"}]}
+{"id": "05_hard_negatives-008", "spans": [{"start": 6, "end": 14, "label": "PER"}, {"start": 31, "end": 39, "label": "PER"}, {"start": 46, "end": 55, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-009", "spans": [{"start": 15, "end": 27, "label": "PER"}]}
+{"id": "05_hard_negatives-010", "spans": [{"start": 11, "end": 19, "label": "PER"}, {"start": 28, "end": 38, "label": "PER"}]}
+{"id": "05_hard_negatives-011", "spans": [{"start": 6, "end": 9, "label": "PER"}]}
+{"id": "05_hard_negatives-012", "spans": [{"start": 13, "end": 24, "label": "PER"}]}
+{"id": "05_hard_negatives-013", "spans": []}
+{"id": "05_hard_negatives-014", "spans": [{"start": 16, "end": 32, "label": "CARD"}, {"start": 41, "end": 43, "label": "ADDRESS"}]}
+{"id": "05_hard_negatives-015", "spans": [{"start": 5, "end": 18, "label": "INN"}, {"start": 24, "end": 33, "label": "PASSPORT"}, {"start": 40, "end": 48, "label": "INN"}]}
+{"id": "05_hard_negatives-016", "spans": [{"start": 18, "end": 21, "label": "PASSPORT"}, {"start": 21, "end": 25, "label": "SNILS"}, {"start": 39, "end": 41, "label": "BIRTHDATE"}, {"start": 42, "end": 49, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-017", "spans": [{"start": 11, "end": 25, "label": "ORG_ID"}]}
+{"id": "05_hard_negatives-018", "spans": [{"start": 10, "end": 12, "label": "SNILS"}]}
+{"id": "05_hard_negatives-019", "spans": [{"start": 15, "end": 32, "label": "ORG_ID"}]}
+{"id": "05_hard_negatives-020", "spans": [{"start": 10, "end": 27, "label": "EMAIL"}, {"start": 32, "end": 52, "label": "EMAIL"}]}
+{"id": "05_hard_negatives-021", "spans": []}
+{"id": "05_hard_negatives-022", "spans": [{"start": 20, "end": 22, "label": "BIRTHDATE"}, {"start": 23, "end": 27, "label": "BIRTHDATE"}, {"start": 28, "end": 32, "label": "CARD"}, {"start": 44, "end": 49, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-023", "spans": [{"start": 12, "end": 14, "label": "PHONE"}, {"start": 15, "end": 16, "label": "BIRTHDATE"}, {"start": 27, "end": 30, "label": "PASSPORT"}, {"start": 31, "end": 33, "label": "PHONE"}, {"start": 41, "end": 43, "label": "PASSPORT"}]}
+{"id": "05_hard_negatives-024", "spans": []}
+{"id": "05_hard_negatives-025", "spans": [{"start": 27, "end": 34, "label": "PER"}]}
+{"id": "05_hard_negatives-026", "spans": []}
+{"id": "05_hard_negatives-027", "spans": [{"start": 19, "end": 25, "label": "PER"}, {"start": 46, "end": 56, "label": "PER"}]}
+{"id": "05_hard_negatives-028", "spans": [{"start": 10, "end": 16, "label": "PER"}]}
+{"id": "05_hard_negatives-029", "spans": [{"start": 14, "end": 20, "label": "PER"}]}
+{"id": "05_hard_negatives-030", "spans": []}
+{"id": "05_hard_negatives-031", "spans": [{"start": 1, "end": 9, "label": "ORG_ID"}, {"start": 32, "end": 34, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-032", "spans": [{"start": 43, "end": 53, "label": "EMAIL"}, {"start": 53, "end": 57, "label": "NICK"}]}
+{"id": "05_hard_negatives-033", "spans": []}
+{"id": "05_hard_negatives-034", "spans": [{"start": 19, "end": 39, "label": "PER"}, {"start": 41, "end": 51, "label": "BIRTHDATE"}, {"start": 61, "end": 72, "label": "PASSPORT"}]}
+{"id": "05_hard_negatives-035", "spans": [{"start": 4, "end": 10, "label": "BIRTHDATE"}, {"start": 15, "end": 17, "label": "BIRTHDATE"}, {"start": 25, "end": 27, "label": "ADDRESS"}, {"start": 30, "end": 31, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-036", "spans": [{"start": 10, "end": 14, "label": "BIRTHDATE"}, {"start": 15, "end": 16, "label": "BIRTHDATE"}, {"start": 26, "end": 31, "label": "PER"}]}
+{"id": "05_hard_negatives-037", "spans": [{"start": 25, "end": 35, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-038", "spans": [{"start": 0, "end": 3, "label": "PER"}]}
+{"id": "05_hard_negatives-039", "spans": [{"start": 7, "end": 8, "label": "PHONE"}, {"start": 8, "end": 13, "label": "SNILS"}]}
+{"id": "05_hard_negatives-040", "spans": [{"start": 29, "end": 33, "label": "PASSPORT"}, {"start": 49, "end": 53, "label": "PER"}]}
+{"id": "05_hard_negatives-041", "spans": []}
+{"id": "05_hard_negatives-042", "spans": []}
+{"id": "05_hard_negatives-043", "spans": [{"start": 0, "end": 6, "label": "PER"}, {"start": 8, "end": 14, "label": "PER"}, {"start": 16, "end": 23, "label": "PER"}]}
+{"id": "05_hard_negatives-044", "spans": [{"start": 10, "end": 17, "label": "PER"}, {"start": 24, "end": 26, "label": "BIRTHDATE"}, {"start": 27, "end": 29, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-045", "spans": []}
+{"id": "05_hard_negatives-046", "spans": []}
+{"id": "05_hard_negatives-047", "spans": [{"start": 0, "end": 14, "label": "PER"}, {"start": 16, "end": 24, "label": "BIRTHDATE"}]}
+{"id": "05_hard_negatives-048", "spans": [{"start": 0, "end": 7, "label": "PER"}, {"start": 9, "end": 17, "label": "PER"}, {"start": 20, "end": 29, "label": "PER"}]}
+{"id": "05_hard_negatives-049", "spans": [{"start": 8, "end": 14, "label": "PER"}, {"start": 16, "end": 23, "label": "ORG_ID"}, {"start": 25, "end": 35, "label": "EMAIL"}, {"start": 45, "end": 50, "label": "BIRTHDATE"}]}
+{"id": "06_long_messy-000", "spans": [{"start": 58, "end": 81, "label": "PER"}, {"start": 111, "end": 124, "label": "PER"}, {"start": 153, "end": 190, "label": "ADDRESS"}, {"start": 281, "end": 300, "label": "CARD"}, {"start": 314, "end": 324, "label": "PHONE"}, {"start": 324, "end": 329, "label": "ORG_ID"}, {"start": 337, "end": 341, "label": "ADDRESS"}, {"start": 342, "end": 360, "label": "EMAIL"}]}
+{"id": "06_long_messy-001", "spans": [{"start": 14, "end": 19, "label": "PASSPORT"}, {"start": 32, "end": 38, "label": "PASSPORT"}, {"start": 45, "end": 51, "label": "PASSPORT"}]}
+{"id": "06_long_messy-002", "spans": [{"start": 15, "end": 19, "label": "PASSPORT"}, {"start": 44, "end": 50, "label": "PASSPORT"}]}
+{"id": "06_long_messy-003", "spans": [{"start": 4, "end": 11, "label": "PHONE"}, {"start": 14, "end": 23, "label": "PHONE"}]}
+{"id": "06_long_messy-004", "spans": [{"start": 18, "end": 83, "label": "PHONE"}]}
+{"id": "06_long_messy-005", "spans": [{"start": 0, "end": 12, "label": "EMAIL"}, {"start": 14, "end": 42, "label": "EMAIL"}, {"start": 44, "end": 81, "label": "EMAIL"}, {"start": 82, "end": 94, "label": "PHONE"}]}
+{"id": "06_long_messy-006", "spans": [{"start": 0, "end": 2, "label": "PER"}, {"start": 4, "end": 21, "label": "EMAIL"}, {"start": 37, "end": 47, "label": "EMAIL"}, {"start": 49, "end": 86, "label": "EMAIL"}]}
+{"id": "06_long_messy-007", "spans": [{"start": 6, "end": 20, "label": "SNILS"}]}
+{"id": "06_long_messy-008", "spans": [{"start": 0, "end": 3, "label": "PER"}, {"start": 10, "end": 22, "label": "PER"}, {"start": 35, "end": 41, "label": "PER"}, {"start": 47, "end": 58, "label": "PHONE"}]}
+{"id": "06_long_messy-009", "spans": [{"start": 4, "end": 16, "label": "PASSPORT"}, {"start": 23, "end": 26, "label": "PASSPORT"}, {"start": 26, "end": 34, "label": "SNILS"}, {"start": 35, "end": 37, "label": "PASSPORT"}, {"start": 42, "end": 53, "label": "PHONE"}]}
+{"id": "06_long_messy-010", "spans": [{"start": 0, "end": 8, "label": "PER"}, {"start": 22, "end": 30, "label": "PER"}, {"start": 79, "end": 95, "label": "PER"}, {"start": 97, "end": 113, "label": "PHONE"}]}
+{"id": "06_long_messy-011", "spans": [{"start": 27, "end": 32, "label": "PER"}, {"start": 38, "end": 40, "label": "BIRTHDATE"}, {"start": 50, "end": 80, "label": "ADDRESS"}, {"start": 127, "end": 136, "label": "ADDRESS"}, {"start": 168, "end": 178, "label": "EMAIL"}]}
+{"id": "06_long_messy-012", "spans": [{"start": 13, "end": 20, "label": "PER"}, {"start": 21, "end": 36, "label": "EMAIL"}, {"start": 50, "end": 65, "label": "PER"}]}
+{"id": "06_long_messy-013", "spans": [{"start": 24, "end": 45, "label": "CARD"}, {"start": 63, "end": 82, "label": "PER"}, {"start": 107, "end": 123, "label": "PHONE"}]}
+{"id": "06_long_messy-014", "spans": [{"start": 11, "end": 40, "label": "PER"}, {"start": 54, "end": 65, "label": "PER"}, {"start": 109, "end": 161, "label": "ADDRESS"}, {"start": 179, "end": 203, "label": "PER"}, {"start": 209, "end": 221, "label": "INN"}]}
+{"id": "06_long_messy-015", "spans": [{"start": 24, "end": 39, "label": "PER"}, {"start": 40, "end": 57, "label": "EMAIL"}, {"start": 58, "end": 65, "label": "EMAIL"}, {"start": 82, "end": 89, "label": "ADDRESS"}, {"start": 91, "end": 100, "label": "ADDRESS"}]}
+{"id": "06_long_messy-016", "spans": [{"start": 9, "end": 13, "label": "PASSPORT"}, {"start": 14, "end": 23, "label": "INN"}]}
+{"id": "06_long_messy-017", "spans": [{"start": 12, "end": 31, "label": "CARD"}]}
+{"id": "06_long_messy-018", "spans": [{"start": 8, "end": 11, "label": "PER"}, {"start": 25, "end": 26, "label": "BIRTHDATE"}, {"start": 27, "end": 29, "label": "BIRTHDATE"}, {"start": 70, "end": 76, "label": "ADDRESS"}]}
+{"id": "06_long_messy-019", "spans": [{"start": 11, "end": 21, "label": "NICK"}, {"start": 38, "end": 48, "label": "BIRTHDATE"}]}
+{"id": "06_long_messy-020", "spans": [{"start": 0, "end": 20, "label": "PER"}]}
+{"id": "06_long_messy-021", "spans": [{"start": 45, "end": 55, "label": "PHONE"}, {"start": 61, "end": 77, "label": "PHONE"}]}
+{"id": "06_long_messy-022", "spans": [{"start": 0, "end": 2, "label": "PER"}, {"start": 2, "end": 19, "label": "ADDRESS"}]}
+{"id": "06_long_messy-023", "spans": [{"start": 0, "end": 7, "label": "PER"}, {"start": 21, "end": 27, "label": "PER"}]}
+{"id": "06_long_messy-024", "spans": [{"start": 29, "end": 31, "label": "PER"}, {"start": 33, "end": 39, "label": "PER"}, {"start": 94, "end": 127, "label": "ADDRESS"}, {"start": 128, "end": 130, "label": "PER"}]}
+{"id": "06_long_messy-025", "spans": [{"start": 10, "end": 23, "label": "PER"}, {"start": 75, "end": 80, "label": "ADDRESS"}, {"start": 94, "end": 111, "label": "ADDRESS"}, {"start": 123, "end": 137, "label": "PHONE"}]}
+{"id": "06_long_messy-026", "spans": [{"start": 15, "end": 22, "label": "EMAIL"}, {"start": 28, "end": 38, "label": "EMAIL"}]}
+{"id": "06_long_messy-027", "spans": [{"start": 27, "end": 48, "label": "PHONE"}]}
+{"id": "06_long_messy-028", "spans": [{"start": 10, "end": 16, "label": "PER"}, {"start": 18, "end": 28, "label": "EMAIL"}]}
+{"id": "06_long_messy-029", "spans": [{"start": 0, "end": 7, "label": "EMAIL"}, {"start": 9, "end": 17, "label": "EMAIL"}, {"start": 19, "end": 26, "label": "EMAIL"}]}
+{"id": "06_long_messy-030", "spans": [{"start": 12, "end": 16, "label": "BIRTHDATE"}]}
+{"id": "06_long_messy-031", "spans": [{"start": 15, "end": 32, "label": "PER"}, {"start": 46, "end": 56, "label": "PER"}, {"start": 96, "end": 114, "label": "PER"}, {"start": 118, "end": 134, "label": "ADDRESS"}]}
+{"id": "06_long_messy-032", "spans": [{"start": 9, "end": 25, "label": "PER"}, {"start": 27, "end": 28, "label": "PER"}, {"start": 64, "end": 71, "label": "PER"}]}
+{"id": "06_long_messy-033", "spans": [{"start": 9, "end": 21, "label": "PER"}, {"start": 23, "end": 31, "label": "BIRTHDATE"}, {"start": 42, "end": 44, "label": "PASSPORT"}]}
+{"id": "06_long_messy-034", "spans": [{"start": 5, "end": 10, "label": "ACCOUNT"}, {"start": 11, "end": 16, "label": "SNILS"}, {"start": 17, "end": 21, "label": "PASSPORT"}, {"start": 22, "end": 29, "label": "SNILS"}]}
+{"id": "06_long_messy-035", "spans": [{"start": 24, "end": 44, "label": "EMAIL"}, {"start": 60, "end": 74, "label": "PER"}]}
+{"id": "06_long_messy-036", "spans": [{"start": 30, "end": 47, "label": "PER"}, {"start": 58, "end": 73, "label": "PHONE"}]}
+{"id": "06_long_messy-037", "spans": [{"start": 19, "end": 23, "label": "PER"}, {"start": 30, "end": 35, "label": "PER"}]}
+{"id": "06_long_messy-038", "spans": [{"start": 0, "end": 15, "label": "PER"}, {"start": 15, "end": 28, "label": "PER"}, {"start": 57, "end": 62, "label": "PER"}, {"start": 63, "end": 73, "label": "ADDRESS"}]}
+{"id": "06_long_messy-039", "spans": [{"start": 6, "end": 22, "label": "CARD"}, {"start": 34, "end": 38, "label": "PASSPORT"}, {"start": 39, "end": 48, "label": "CARD"}, {"start": 61, "end": 70, "label": "PER"}]}
+{"id": "06_long_messy-040", "spans": [{"start": 0, "end": 3, "label": "PER"}, {"start": 5, "end": 10, "label": "PER"}, {"start": 11, "end": 15, "label": "PER"}]}
+{"id": "06_long_messy-041", "spans": [{"start": 0, "end": 10, "label": "PER"}, {"start": 20, "end": 31, "label": "PER"}]}
+{"id": "06_long_messy-042", "spans": [{"start": 11, "end": 13, "label": "BIRTHDATE"}, {"start": 13, "end": 23, "label": "SNILS"}, {"start": 57, "end": 60, "label": "PASSPORT"}, {"start": 60, "end": 64, "label": "ORG_ID"}]}
+{"id": "06_long_messy-043", "spans": [{"start": 22, "end": 38, "label": "PHONE"}, {"start": 57, "end": 62, "label": "PER"}]}
+{"id": "06_long_messy-044", "spans": [{"start": 13, "end": 23, "label": "PER"}, {"start": 24, "end": 31, "label": "NICK"}, {"start": 45, "end": 51, "label": "NICK"}]}
+{"id": "06_long_messy-045", "spans": [{"start": 19, "end": 39, "label": "PHONE"}, {"start": 39, "end": 45, "label": "PER"}]}
+{"id": "06_long_messy-046", "spans": [{"start": 12, "end": 29, "label": "EMAIL"}, {"start": 30, "end": 33, "label": "EMAIL"}, {"start": 52, "end": 73, "label": "EMAIL"}]}
+{"id": "06_long_messy-047", "spans": [{"start": 0, "end": 7, "label": "PER"}]}
+{"id": "06_long_messy-048", "spans": []}
