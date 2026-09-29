@@ -1,0 +1,7 @@
+{"id": "01_support-015", "add": [{"text": "17 лет", "label": "BIRTHDATE"}], "reason": "решение 13: возраст размечается как BIRTHDATE"}
+{"id": "02_chats-038", "add": [{"text": "81 год", "label": "BIRTHDATE"}], "reason": "решение 13"}
+{"id": "04_bank_med_gov-007", "add": [{"text": "58 лет", "label": "BIRTHDATE"}], "reason": "решение 13"}
+{"id": "04_bank_med_gov-030", "add": [{"text": "70 лет", "label": "BIRTHDATE"}], "reason": "решение 13; приблизительный возраст («на вид») тоже"}
+{"id": "05_hard_negatives-035", "add": [{"text": "45 лет", "label": "BIRTHDATE"}, {"text": "38", "label": "BIRTHDATE"}, {"text": "10", "label": "BIRTHDATE", "after": "детям "}, {"text": "7", "label": "BIRTHDATE", "after": "и "}], "reason": "решение 13; возраст конкретных людей, хоть и без имён"}
+{"id": "06_long_messy-011", "add": [{"text": "27", "label": "BIRTHDATE", "after": "мне "}], "reason": "решение 13"}
+{"id": "06_long_messy-033", "add": [{"text": "2 года 3 мес.", "label": "BIRTHDATE"}], "reason": "решение 13; возраст ребёнка одним спаном"}

@@ -138,6 +138,17 @@ def birthdate(rng: random.Random) -> str:
     ])
 
 
+def age(rng: random.Random) -> str:
+    n = rng.randint(1, 95)
+    if n % 10 == 1 and n % 100 != 11:
+        word = "год"
+    elif n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+        word = "года"
+    else:
+        word = "лет"
+    return f"{n} {word}"
+
+
 def address(rng: random.Random) -> str:
     street = rng.choice(["ул.", "улица", "пр-т", "проспект", "пер.", "бульвар"])
     parts = [f"{street} {_fake.street_title()}", f"д. {rng.randint(1, 150)}"]

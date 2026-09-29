@@ -1,0 +1,869 @@
+[
+ {
+  "n": 1,
+  "id": "01_support-015",
+  "A": [
+   {
+    "start": 24,
+    "end": 26,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 2,
+  "id": "01_support-018",
+  "A": [
+   {
+    "start": 18,
+    "end": 39,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [
+   {
+    "start": 11,
+    "end": 56,
+    "label": "ADDRESS"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 3,
+  "id": "01_support-022",
+  "A": [],
+  "B": [
+   {
+    "start": 68,
+    "end": 79,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 4,
+  "id": "01_support-025",
+  "A": [
+   {
+    "start": 75,
+    "end": 82,
+    "label": "PASSPORT"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 5,
+  "id": "01_support-031",
+  "A": [
+   {
+    "start": 23,
+    "end": 38,
+    "label": "ORG_ID"
+   }
+  ],
+  "B": [
+   {
+    "start": 23,
+    "end": 38,
+    "label": "PHONE"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 6,
+  "id": "01_support-034",
+  "A": [
+   {
+    "start": 30,
+    "end": 46,
+    "label": "ORG_ID"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 7,
+  "id": "02_chats-000",
+  "A": [],
+  "B": [
+   {
+    "start": 0,
+    "end": 5,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 8,
+  "id": "02_chats-000",
+  "A": [
+   {
+    "start": 19,
+    "end": 25,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "first"
+ },
+ {
+  "n": 9,
+  "id": "02_chats-003",
+  "A": [],
+  "B": [
+   {
+    "start": 72,
+    "end": 98,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 10,
+  "id": "02_chats-007",
+  "A": [
+   {
+    "start": 0,
+    "end": 7,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 11,
+  "id": "02_chats-018",
+  "A": [
+   {
+    "start": 25,
+    "end": 48,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [
+   {
+    "start": 14,
+    "end": 48,
+    "label": "ADDRESS"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 12,
+  "id": "02_chats-029",
+  "A": [],
+  "B": [
+   {
+    "start": 0,
+    "end": 4,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 13,
+  "id": "02_chats-029",
+  "A": [],
+  "B": [
+   {
+    "start": 49,
+    "end": 55,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 14,
+  "id": "02_chats-032",
+  "A": [],
+  "B": [
+   {
+    "start": 12,
+    "end": 17,
+    "label": "EMAIL"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 15,
+  "id": "02_chats-036",
+  "A": [
+   {
+    "start": 38,
+    "end": 43,
+    "label": "PER"
+   }
+  ],
+  "B": [
+   {
+    "start": 38,
+    "end": 44,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 16,
+  "id": "02_chats-036",
+  "A": [
+   {
+    "start": 59,
+    "end": 68,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 17,
+  "id": "02_chats-039",
+  "A": [
+   {
+    "start": 31,
+    "end": 50,
+    "label": "EMAIL"
+   }
+  ],
+  "B": [
+   {
+    "start": 31,
+    "end": 50,
+    "label": "ORG_ID"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 18,
+  "id": "02_chats-042",
+  "A": [
+   {
+    "start": 0,
+    "end": 18,
+    "label": "NICK"
+   }
+  ],
+  "B": [
+   {
+    "start": 5,
+    "end": 18,
+    "label": "NICK"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 19,
+  "id": "03_official-003",
+  "A": [],
+  "B": [
+   {
+    "start": 119,
+    "end": 128,
+    "label": "ORG_ID"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 20,
+  "id": "03_official-004",
+  "A": [
+   {
+    "start": 42,
+    "end": 54,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [
+   {
+    "start": 42,
+    "end": 59,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 21,
+  "id": "03_official-005",
+  "A": [
+   {
+    "start": 81,
+    "end": 85,
+    "label": "PASSPORT"
+   },
+   {
+    "start": 92,
+    "end": 98,
+    "label": "PASSPORT"
+   }
+  ],
+  "B": [
+   {
+    "start": 81,
+    "end": 98,
+    "label": "PASSPORT"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 22,
+  "id": "03_official-005",
+  "A": [
+   {
+    "start": 188,
+    "end": 208,
+    "label": "ORG_ID"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 23,
+  "id": "03_official-007",
+  "A": [],
+  "B": [
+   {
+    "start": 19,
+    "end": 26,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 24,
+  "id": "03_official-009",
+  "A": [
+   {
+    "start": 77,
+    "end": 82,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 25,
+  "id": "03_official-019",
+  "A": [
+   {
+    "start": 43,
+    "end": 62,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 26,
+  "id": "03_official-022",
+  "A": [],
+  "B": [
+   {
+    "start": 66,
+    "end": 72,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 27,
+  "id": "03_official-028",
+  "A": [
+   {
+    "start": 66,
+    "end": 72,
+    "label": "DOC_ID"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 28,
+  "id": "03_official-030",
+  "A": [
+   {
+    "start": 102,
+    "end": 118,
+    "label": "PHONE"
+   }
+  ],
+  "B": [
+   {
+    "start": 102,
+    "end": 127,
+    "label": "PHONE"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 29,
+  "id": "03_official-041",
+  "A": [
+   {
+    "start": 92,
+    "end": 134,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [
+   {
+    "start": 84,
+    "end": 134,
+    "label": "ADDRESS"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 30,
+  "id": "04_bank_med_gov-005",
+  "A": [],
+  "B": [
+   {
+    "start": 63,
+    "end": 73,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 31,
+  "id": "04_bank_med_gov-008",
+  "A": [
+   {
+    "start": 99,
+    "end": 114,
+    "label": "ORG_ID"
+   }
+  ],
+  "B": [
+   {
+    "start": 99,
+    "end": 114,
+    "label": "PHONE"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 32,
+  "id": "04_bank_med_gov-011",
+  "A": [
+   {
+    "start": 52,
+    "end": 78,
+    "label": "PASSPORT"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 33,
+  "id": "04_bank_med_gov-028",
+  "A": [],
+  "B": [
+   {
+    "start": 71,
+    "end": 91,
+    "label": "ORG_ID"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 34,
+  "id": "04_bank_med_gov-030",
+  "A": [
+   {
+    "start": 137,
+    "end": 140,
+    "label": "PHONE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 35,
+  "id": "04_bank_med_gov-038",
+  "A": [
+   {
+    "start": 78,
+    "end": 88,
+    "label": "ORG_ID"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 36,
+  "id": "04_bank_med_gov-045",
+  "A": [
+   {
+    "start": 24,
+    "end": 34,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 37,
+  "id": "05_hard_negatives-004",
+  "A": [
+   {
+    "start": 7,
+    "end": 13,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "first"
+ },
+ {
+  "n": 38,
+  "id": "05_hard_negatives-006",
+  "A": [
+   {
+    "start": 18,
+    "end": 26,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 39,
+  "id": "05_hard_negatives-007",
+  "A": [
+   {
+    "start": 0,
+    "end": 11,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 40,
+  "id": "05_hard_negatives-031",
+  "A": [],
+  "B": [
+   {
+    "start": 0,
+    "end": 9,
+    "label": "NICK"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 41,
+  "id": "05_hard_negatives-034",
+  "A": [
+   {
+    "start": 19,
+    "end": 39,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 42,
+  "id": "05_hard_negatives-034",
+  "A": [
+   {
+    "start": 41,
+    "end": 51,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 43,
+  "id": "05_hard_negatives-034",
+  "A": [],
+  "B": [
+   {
+    "start": 61,
+    "end": 72,
+    "label": "PASSPORT"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 44,
+  "id": "05_hard_negatives-043",
+  "A": [],
+  "B": [
+   {
+    "start": 0,
+    "end": 6,
+    "label": "PER"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 45,
+  "id": "05_hard_negatives-043",
+  "A": [
+   {
+    "start": 8,
+    "end": 14,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 46,
+  "id": "05_hard_negatives-043",
+  "A": [],
+  "B": [
+   {
+    "start": 16,
+    "end": 23,
+    "label": "PER"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 47,
+  "id": "05_hard_negatives-044",
+  "A": [
+   {
+    "start": 10,
+    "end": 17,
+    "label": "PER"
+   }
+  ],
+  "B": [
+   {
+    "start": 10,
+    "end": 16,
+    "label": "PER"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 48,
+  "id": "05_hard_negatives-045",
+  "A": [],
+  "B": [
+   {
+    "start": 0,
+    "end": 5,
+    "label": "PER"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 49,
+  "id": "06_long_messy-005",
+  "A": [
+   {
+    "start": 26,
+    "end": 42,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "first"
+ },
+ {
+  "n": 50,
+  "id": "06_long_messy-010",
+  "A": [],
+  "B": [
+   {
+    "start": 0,
+    "end": 8,
+    "label": "PER"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 51,
+  "id": "06_long_messy-010",
+  "A": [
+   {
+    "start": 22,
+    "end": 30,
+    "label": "PER"
+   }
+  ],
+  "B": [],
+  "A_is": "first"
+ },
+ {
+  "n": 52,
+  "id": "06_long_messy-011",
+  "A": [
+   {
+    "start": 64,
+    "end": 80,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [
+   {
+    "start": 50,
+    "end": 80,
+    "label": "ADDRESS"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 53,
+  "id": "06_long_messy-018",
+  "A": [
+   {
+    "start": 70,
+    "end": 76,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 54,
+  "id": "06_long_messy-020",
+  "A": [
+   {
+    "start": 0,
+    "end": 7,
+    "label": "PER"
+   },
+   {
+    "start": 11,
+    "end": 20,
+    "label": "PER"
+   }
+  ],
+  "B": [
+   {
+    "start": 0,
+    "end": 20,
+    "label": "PER"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 55,
+  "id": "06_long_messy-022",
+  "A": [
+   {
+    "start": 0,
+    "end": 19,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [
+   {
+    "start": 3,
+    "end": 19,
+    "label": "ADDRESS"
+   }
+  ],
+  "A_is": "second"
+ },
+ {
+  "n": 56,
+  "id": "06_long_messy-030",
+  "A": [
+   {
+    "start": 7,
+    "end": 11,
+    "label": "BIRTHDATE"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 57,
+  "id": "06_long_messy-031",
+  "A": [
+   {
+    "start": 46,
+    "end": 56,
+    "label": "ADDRESS"
+   }
+  ],
+  "B": [],
+  "A_is": "second"
+ },
+ {
+  "n": 58,
+  "id": "06_long_messy-031",
+  "A": [],
+  "B": [
+   {
+    "start": 59,
+    "end": 65,
+    "label": "ADDRESS"
+   }
+  ],
+  "A_is": "first"
+ },
+ {
+  "n": 59,
+  "id": "06_long_messy-046",
+  "A": [
+   {
+    "start": 12,
+    "end": 33,
+    "label": "EMAIL"
+   }
+  ],
+  "B": [],
+  "A_is": "first"
+ }
+]

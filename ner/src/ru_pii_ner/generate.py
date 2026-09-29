@@ -50,6 +50,8 @@ TEMPLATES = [
     "Запись к терапевту: пациент {PER}, дата рождения {BIRTHDATE}, полис оформлен {DATE}",
     "Пациент {PER}, полис ОМС {OMS}. Направление на анализы действительно до {DATE}",
     "Полис ОСАГО на автомобиль с госномером {PLATE}, страхователь {PER}, тел. {PHONE}",
+    "Пациент {PER}, {AGE}, жалобы на боль в спине. Направлен на МРТ.",
+    "Пропал человек: {PER}, {AGE}, ушёл из дома на {ADDRESS}. Звоните {PHONE}",
     "Курьер не смог дозвониться до получателя. Адрес {ADDRESS}, получатель {FIRST}, телефон {PHONE}",
     # без персональных данных (кроме реквизитов организаций): учат модель не путать ПД с похожими строками
     "Горячая линия {ORG} работает круглосуточно: {HOTLINE}, почта {ORG_EMAIL}",
@@ -95,6 +97,7 @@ class _Context:
             "PASSPORT_NUM": lambda: (self.passport[1], "PASSPORT"),
             "ADDRESS": lambda: (fakes.address(r), "ADDRESS"),
             "BIRTHDATE": lambda: (fakes.birthdate(r), "BIRTHDATE"),
+            "AGE": lambda: (fakes.age(r), "BIRTHDATE"),
             "CARD": lambda: (fakes.card(r), "CARD"),
             "ACCOUNT": lambda: (fakes.account(r), "ACCOUNT"),
             "OMS": lambda: (fakes.oms(r), "DOC_ID"),
